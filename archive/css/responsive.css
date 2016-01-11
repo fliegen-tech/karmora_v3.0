@@ -1,0 +1,601 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*------------------------------------1024 CSS STARTS--------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 1024px) {
+.tab-only{ display:none;}
+.desk-only{ display:block;}
+.container{ width:1000px; margin:0 auto; position:relative; }
+
+/*-----Coming Soon starts-----*/
+.container-coming{ width:1000px; margin:0 auto; }
+header.soon, header.privacy{ text-align:center;  padding:34px 0 34px;}
+.banner{ 	background:url(../images/comingbg.jpg) repeat-x 0 0; }
+
+.banner-left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 7px 7px 7px 7px;
+    float: left;
+    height: 360px;
+    padding: 37px 0;
+    width: 640px;
+}
+.banner-right{
+	float:right;
+	width:304px;
+	height:404px;
+}
+.soonName, .soonEmail{ float:none;}
+.fb_btn{ float:right; }
+.banrR-part{ margin-top:10px; }
+ul.banrR{ margin-top:3px; }
+h1.coming{ font-size:40px; line-height:44px;}
+.result{ width: 262px; }
+/*-----Coming Soon ends-----*/
+
+/*-----Landing starts-----*/
+.bannerLanding-left {
+	float: left;
+    height: 351px;
+    padding: 0;
+    width: 640px;
+}
+.bannerLanding-right {
+    float: right;
+    height: 351px;
+    width: 335px;
+}
+section.landing h1 span{ font-size:38px;}
+.fbLanding_btn { float:right; }
+/*-----Landing ends-----*/
+
+/*-----Package Starts-----*/
+.cashTable th{ width:35%;}
+.cashTable td{ width:65%;}
+/*-----Package Ends-----*/
+
+/*-----Home Starts-----*/
+.containerH{ width:1000px; margin:0 auto; position:relative; }
+.featured li {margin-right: 15px; }
+.featured { width: 800px; }
+
+.memberDiv { float: left; }
+.joinDiv { float: left; }
+.joinDiv a { width: 412px; height: 114px; }
+.memJoin { padding: 10px; width: 999px; }
+.memArow { background:url(../images/memArow.png) no-repeat right 0; padding-right:8px; float:left; }
+.memberDiv { width:558px; }
+.memDesc {width: 420px;}
+.productsList ul {width: 997px; }
+
+
+.siteMesg-left { width: 92%; }
+.siteMesg-right{ width:8%; }
+/*-----Home Ends-----*/
+
+/*-----Main menu Starts-----*/
+ul.slimmenu{
+	width:1000px;
+}
+ul.slimmenu li > ul {width: 184px; }
+ul.slimmenu > li > .sub-collapser{display:none;}
+ul.slimmenu ul li .sub-collapser {
+   /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu.collapsed li { display: block; }
+ul.slimmenu > li { border-bottom: 5px solid #000000 !important; }
+nav  ul  li:hover{ border-bottom: #de3277 5px solid !important;  }
+nav  ul  li a:hover{  color:#de3277; }
+/*-----Main menu ends-----*/
+
+/*-----ProductList and Filter Starts-----*/
+ul.filterMain > li{ width:25%; }
+.breadfilter .breadDiv{ width:800px; }
+/*-----ProductList and Filter Ends-----*/
+
+/*-----Product Detail Starts-----*/
+.detailPic{ width:50%; float:left; }
+.detailDesc{
+	float:left;
+	border-left:#888 1px dotted;
+	width:50%;
+	padding:25px 10px 0 25px;
+}
+.ddinner{ min-height:455px; }
+/*-----Product Detail Ends-----*/
+
+
+/******************Wishlist***********************/
+.wishlist_actions_wrapp{ width:997px;}
+.wishlist_btm_wrapp{width:997px;}
+/******************Wishlist***********************/
+
+
+/*************Karmora Tv**********************/
+.karmora_vidopost{ width:250px; float:left;}
+.karmora_vidopost:nth-child(3n){ float:right; margin:0px;}
+.karmoratv_videowrapp:last-child{ border-bottom:0px;}
+/*************Karmora Tv**********************/
+
+/***************Blog Detail************/
+.blogdetail_rightcol{ width:770px; float:right;}
+.blogdetail_leftcol{ width:181px; float:left; margin-top:20px;}
+.filter_archives span{ display:none;}
+/***************Blog Detail************/
+
+
+/********************admin edit profile**************/
+.admin_contentsection{ width:997px;}
+/********************admin edit profile**************/
+
+/********************Video_Popup**************/
+
+.videopopup_wrapp{ width:950px;}
+.videoplayer{ width:520px; float:left; margin-left:10px;}
+.video-Descrption{ margin:0px 10px 0px 20px; width:319px;}
+
+/********************Video_Popup**************/
+
+
+/***********NewHome**************/
+.Desktop_img{ display:block;}
+.Tab_img{ display:none;}
+
+
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*------------------------------------601x1023 CSS STARTS----------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 801px) and (max-width : 1023px) {
+.tab-only{ display:block;}
+.desk-only{ display:none;}
+.container{ width:770px; margin:0 auto;  position:relative;}
+
+
+/*-----Coming Soon starts-----*/
+.container-coming{ width:570px; margin:0 auto; }
+header.soon, header.privacy { text-align:center;  padding:34px 0 34px;}
+.banner{ 	background:url(../images/comingbg-s.jpg) repeat-x 0 0; }
+
+.banner-left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 7px 7px 7px 7px;
+    float: none;
+    height: 315px;
+    padding: 20px 0;
+    width: 570px;
+	margin:0 auto;
+	text-align:center;
+}
+.banner-right{
+	float:none;
+	margin:34px 0 0;
+}
+.soonName { float:left; width:47%;} .soonEmail{ float:right; width:47%;}
+.fb_btn{ float:left; margin-left:10px; }
+.soonBtns { float:left; width:312px;}
+.banrR-part{ margin-top:14px; float:right; width:208px; }
+ul.banrR{ margin-top:8px; }
+h1.coming{ font-size:30px; line-height:34px;}
+.result{ width: 499px; }
+/*-----Coming Soon ends-----*/
+
+/*-----Landing starts-----*/
+.bannerLanding-left {
+	float: none;
+    
+}
+.bannerLanding-right {
+    float: none;
+    margin:34px 0 0;
+}
+section.landing h1 span{ font-size:24px;}
+.fbLanding_btn { float:left; margin:0 0 0 30px; }
+/*-----Landing ends-----*/
+
+
+
+
+/*-----Package Starts-----*/
+.cashTable th{ width:35%;}
+.cashTable td{ width:65%;}
+/*-----Package Ends-----*/
+
+/*-----Home Starts-----*/
+.containerH{ width:500px; margin:0 auto; position:relative; }
+/*.productsList ul li:nth-child(odd){ margin-right:35px; margin-left:17px;}*/
+.featured{ margin-left:44px; width: 340px;}
+.featured li {margin-right: 25px; }
+
+.sliderBtm{text-align:center;}
+.memberDiv { float: none; margin:0 auto; }
+.joinDiv { float: none; margin:10px auto 0; text-align:center; background:#fff; }
+.joinDiv a { display:block; }
+.memJoin { padding: 10px; width: 100%; }
+.memArow { background:#fff; float:none; }
+.memberDiv { width:480px; }
+.memDesc {width: 350px;}
+.productsList ul {width: 500px; }
+
+
+.siteMesg-left { width: 84%; }
+.siteMesg-right{ width:16%; }
+/*-----Home Ends-----*/
+
+
+/*-----Main menu Starts-----*/
+ul.slimmenu, .menu-collapser{
+	width:500px; margin:0 auto;
+}
+ul.slimmenu li > ul {width: 100%; }
+ul.slimmenu > li > .sub-collapser{display:inline-block;}
+ul.slimmenu li .sub-collapser {
+   /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu.collapsed li { display: inline-block; }
+ul.slimmenu li a { border-left: 5px solid #000000 !important; }
+nav  ul  li a:hover{border-left: #de3277 5px solid !important; color:#de3277;}
+.slimmenu ul > li > a i{padding-right:15px;}
+.slimmenu ul > li li a i{ padding-left:10px; padding-right:15px;}
+/*-----Main menu ends-----*/
+
+/*-----ProductList and Filter Starts-----*/
+ul.filterMain > li{ width:50%; }
+.breadfilter .breadDiv{ width:360px; }
+/*-----ProductList and Filter Ends-----*/
+
+/*-----Product Detail Starts-----*/
+.detailPic{ width:100%; float:none; border-bottom:1px dotted #888888; }
+.detailDesc{
+	float:left;
+	border-left:none;
+	width:100%;
+	padding:25px 10px 0 25px;
+}
+/*-----Product Detail Ends-----*/
+
+/******************Wishlist***********************/
+.wishlist_actions_wrapp{ width:500px;}
+.wishlist_btm_wrapp{width:500px;}
+.karmoratv,.karmorablog{ margin-bottom:5px;}
+/******************Wishlist***********************/
+
+
+
+/*************Karmora Tv**********************/
+.karmora_vidopost{float: left;margin-right: 9px;min-height: 250px;width: 190px;}
+.karmoratv_videowrapp:last-child{ border-bottom:0px;}
+.karmora_vidopost h2{ height:32px;}
+.tv-buy{min-height: 286px;}
+/*************Karmora Tv**********************/
+
+
+/***************Blog Detail************/
+.blogdetail_rightcol{ width:100%; float:left; clear:both;}
+.filter_archives{ cursor:pointer;}
+.blogdetail_leftcol h2{ width:21%; float:right;background:#eeeeee;margin-bottom:0px;border-left: 1px solid #D4D4D4;border-right: 1px solid #D4D4D4;border-top: 1px solid #D4D4D4; border-bottom:0px; font-weight:normal; text-align:right; height: 32px;padding: 6px;  position:relative; z-index:90; color:#3d3d3d;font-size:14px;}
+
+.blogdetail_leftcol {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    position: relative;
+    top: -58px;
+}
+.blogdetail_rightcol{ margin-top:-40px;}
+.archievelisting{ background:#eeeeee; border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;border-top:1px solid #d4d4d4; position:relative; z-index:20; margin-top:-2px;}
+.leftcol_blog_home{ top:-42px;}
+/***************Blog Detail************/
+
+/********************admin edit profile**************/
+.admin_contentsection{ width:500px;}
+.adminform_wrapp {width: 92%;}
+.adminform_row label{ width:41%;}
+.adminform_row input[type="text"], .adminform_row input[type="tel"], .adminform_row input[type="email"]{ width:58%;}
+/********************admin edit profile**************/
+
+
+/*******************FundRaising****************/
+.adminform_row select, .funraisingArea{
+width: 58%;}
+
+/********************Video_Popup**************/
+.videopopup_content_wrapper h1{ width:90%;}
+.videopopup_area_wrapp{ width:98%;}
+.videopopup_wrapp{ width:574px;}
+.videoplayer{ width:520px; margin:auto;}
+.video-Descrption{ padding:0px 10px 0px 20px; width:100%;  -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box; margin-top:15px;}
+
+/********************Video_Popup**************/
+
+
+/**************New Admin*******************/
+#tablist1-panel1 {
+    display: block;
+}
+.wishlist_actions_wrapp{border-bottom: 1px solid #D4D4D4 !important;}
+.admin_contentsection{border-top:none !important;}
+.wishlist_btm_wrapp{ margin-bottom:0 !important;}
+.report_content_wrapp{ width:99%;}
+.funraising_video{ margin:auto; width:460px;}
+
+
+/********************Featured Companies*******************/
+.featuredcompaniesPost{margin: 0px 52px;}
+
+/****************NewHomeFeaturedArea***************/
+.featured_row1-Col2{border-left: 1px dotted #010101; border-top: 0px dotted #010101;}
+.featured_row2-Col1{ width:500px; height:300px;}
+.featured_row2-Col2-post{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_post_title_row2-Col1,.featured_post_title_row2-Col2,.featured_post_title_row2-Col3{width: 490px;}
+.featured_row2-Col3{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_row3-Col2{border-left: 1px dotted #010101; }
+
+/***********NewHome**************/
+.Desktop_img{ display:none;}
+.Tab_img{ display:block;}
+.dot3{background: url(../images/dot3-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot4{background: url(../images/dot4-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot6{background: url(../images/dot6-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+
+/**************LoveIt*****************/
+.LoveItWrapp{ width:500px;}
+.LoveItWrapp h2{ width:87%;}
+
+/**************MakeIt*****************/
+.MakeItStepsPost{ width:100%; clear:both;}
+.MakeItWrapp h2{ width:100%;}
+.MakeItOffer img{ width:100%;}
+
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*------------------------------------601x800 CSS STARTS-----------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 601px) and (max-width : 800px) {
+.tab-only{ display:block;}
+.desk-only{ display:none;}
+.container{ width:570px; margin:0 auto;  position:relative; }
+
+/*-----Coming Soon starts-----*/
+.container-coming{ width:570px; margin:0 auto;}
+header.soon, header.privacy{ text-align:center;  padding:34px 0 34px;}
+.banner{ 	background:url(../images/comingbg-s.jpg) repeat-x 0 0; }
+
+.banner-left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 7px 7px 7px 7px;
+    float: none;
+    height: 315px;
+    padding: 20px 0;
+    width: 570px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.banner-right{
+	float:none;
+	margin:34px 0 0;
+}
+.soonName { float:left; width:47%;} .soonEmail{ float:right; width:47%;}
+.fb_btn{ float:left; margin-left:10px; }
+.soonBtns { float:left; width:312px;}
+.banrR-part{ margin-top:14px; float:right; width:208px; }
+ul.banrR{ margin-top:8px; }
+h1.coming{ font-size:30px; line-height:34px;}
+.result{ width: 499px; }
+/*-----Coming Soon ends-----*/
+
+/*-----Landing starts-----*/
+.bannerLanding-left {
+	float: none;
+    
+}
+.bannerLanding-right {
+    float: none;
+    margin:34px 0 0;
+}
+section.landing h1 span{ font-size:24px;}
+.fbLanding_btn { float:left; margin:0 0 0 30px; }
+/*-----Landing ends-----*/
+
+/*-----Package Starts-----*/
+.cashTable th{ width:40%;}
+.cashTable td{ width:60%;}
+/*-----Package Ends-----*/
+
+/*-----Home Starts-----*/
+.containerH{ width:500px; margin:0 auto; position:relative; }
+/*.productsList ul li:nth-child(odd){ margin-right:35px; margin-left:17px;}*/
+.featured{ margin-left:44px; width: 340px;}
+.featured li {margin-right: 25px; }
+
+
+.sliderBtm{text-align:center;}
+.memberDiv { float: none; margin:0 auto; }
+.joinDiv { float: none; margin:10px auto 0; text-align:center; background:#fff; }
+.joinDiv a { display:block; }
+.memJoin { padding: 10px; width: 100%; }
+.memArow { background:#fff; float:none; }
+.memberDiv { width:480px; }
+.memDesc {width: 350px;}
+.productsList ul {width: 500px; }
+
+.siteMesg-left { width: 84%; }
+.siteMesg-right{ width:16%; }
+/*-----Home Ends-----*/
+
+/*-----Main menu Starts-----*/
+ul.slimmenu, .menu-collapser{
+	width:500px; margin:0 auto;
+}
+ul.slimmenu li > ul {width: 100%; }
+ul.slimmenu > li > .sub-collapser{display:inline-block;}
+ul.slimmenu li .sub-collapser {
+   /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu.collapsed li { display: inline-block; }
+ul.slimmenu li a { border-left: 5px solid #000000 !important; }
+nav  ul  li a:hover{border-left: #de3277 5px solid !important; color:#de3277;}
+.slimmenu ul > li > a i{padding-right:15px;}
+.slimmenu ul > li li a i{ padding-left:10px; padding-right:15px;}
+/*-----Main menu ends-----*/
+
+/*-----ProductList and Filter Starts-----*/
+ul.filterMain > li{ width:50%; }
+.breadfilter .breadDiv{ width:360px; }
+/*-----ProductList and Filter Ends-----*/
+
+/*-----Product Detail Starts-----*/
+.detailPic{ width:100%; float:none; border-bottom:1px dotted #888888; }
+.detailDesc{
+	float:left;
+	border-left:none;
+	width:100%;
+	padding:25px 10px 0 25px;
+}
+/*-----Product Detail Ends-----*/
+
+/******************Wishlist***********************/
+.wishlist_actions_wrapp{ width:500px;}
+.wishlist_btm_wrapp{width:500px;}
+.karmoratv,.karmorablog{ margin-bottom:5px;}
+/******************Wishlist***********************/
+
+/*************Karmora Tv**********************/
+.karmora_vidopost{float: left;margin-right: 9px;min-height: 250px;width: 190px;}
+.karmoratv_videowrapp:last-child{ border-bottom:0px;}
+.karmora_vidopost h2{ height:32px;}
+.tv-buy{min-height: 286px;}
+/*************Karmora Tv**********************/
+
+
+/***************Blog Detail************/
+.blogdetail_rightcol{ width:100%; float:left; clear:both;}
+.filter_archives{ cursor:pointer;}
+.blogdetail_leftcol h2{ width:21%; float:right;background:#eeeeee;margin-bottom:0px;border-left: 1px solid #D4D4D4;border-right: 1px solid #D4D4D4;border-top: 1px solid #D4D4D4; border-bottom:0px; font-weight:normal; text-align:right; height: 32px;padding: 6px;  position:relative; z-index:90;  color:#3d3d3d; font-size:14px;}
+
+.blogdetail_leftcol {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    position: relative;
+    top: -58px;
+}
+.blogdetail_rightcol{ margin-top:-40px;}
+.archievelisting{ background:#eeeeee; border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;border-top:1px solid #d4d4d4; position:relative; z-index:20; margin-top:-2px;}
+.leftcol_blog_home{ top:-42px;}
+/***************Blog Detail************/
+
+/********************admin edit profile**************/
+.admin_contentsection{ width:500px;}
+.adminform_wrapp {width: 92%;}
+.adminform_row label{ width:41%;}
+.adminform_row input[type="text"], .adminform_row input[type="tel"], .adminform_row input[type="email"]{ width:58%;}
+/********************admin edit profile**************/
+
+
+/*******************FundRaising****************/
+.adminform_row select, .funraisingArea{
+width: 58%;}
+
+
+/********************Video_Popup**************/
+.videopopup_content_wrapper{ padding:0px;}
+.videopopup_content_wrapper h1{ width:90%;}
+.videopopup_wrapp{ padding:6px;}
+.videopopup_area_wrapp{ width:100%;}
+.videopopup_wrapp{ width:556px;}
+.videoplayer{ width:520px; margin:auto;}
+.video-Descrption{ padding:0px 10px 0px 20px; width:100%;  -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box; margin-top:15px;}
+
+/********************Video_Popup**************/
+
+/**************New Admin*******************/
+#tablist1-panel1 {
+    display: block;
+}
+.wishlist_actions_wrapp{border-bottom: 1px solid #D4D4D4 !important;}
+.admin_contentsection{border-top:none !important;}
+.wishlist_btm_wrapp{ margin-bottom:0 !important;}
+.report_content_wrapp{ width:99%;}
+.funraising_video{ margin:auto; width:460px;}
+
+/********************Featured Companies*******************/
+.featuredcompaniesPost{margin: 0px 52px;}
+
+/****************NewHomeFeaturedArea***************/
+.featured_row1-Col2{border-left: 1px dotted #010101; border-top: 0px dotted #010101;}
+.featured_row2-Col1{ width:500px; height:300px;}
+.featured_row2-Col2-post{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_post_title_row2-Col1,.featured_post_title_row2-Col2,.featured_post_title_row2-Col3{width: 490px;}
+.featured_row2-Col3{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_row3-Col2{border-left: 1px dotted #010101; }
+
+/***********NewHome**************/
+.Desktop_img{ display:none;}
+.Tab_img{ display:block;}
+.dot3{background: url(../images/dot3-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot4{background: url(../images/dot4-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot6{background: url(../images/dot6-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+
+
+/**************LoveIt*****************/
+.LoveItWrapp{ width:500px;}
+.LoveItWrapp h2{ width:87%;}
+
+/**************MakeIt*****************/
+.MakeItStepsPost{ width:100%; clear:both;}
+.MakeItWrapp h2{ width:100%;}
+.MakeItOffer img{ width:100%;}
+
+}
+
+
+
+

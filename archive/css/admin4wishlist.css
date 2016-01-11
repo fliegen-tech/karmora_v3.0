@@ -1,0 +1,28 @@
+.wishlist_nav_Wrapp{ clear: both;width: 100%;overflow: hidden;margin-bottom: 18px;}
+.wishlist_nav_Wrapp ul{ padding:0px; margin:0px; clear:both;}
+.wishlist_nav_Wrapp ul li{ float:left; display:inline-block; list-style:none; height:50px;}
+.wishlist_nav_Wrapp ul li a{ font-family:"Myriad Pro"; font-size:14px; color:#7c7c7c; display:block; padding:8px 10px 11px 10px; line-height:19px; position:relative;}
+.wishlist_nav_Wrapp ul li a:hover , .wishlist_nav_Wrapp ul li a.active{ background: #000000 url(../images/wishlist_nav_hover.jpg) no-repeat center 37px;
+color: #ffffff;
+text-decoration: none;
+line-height: 23px;}
+.wishlistbcrum{ margin-bottom:0px;}
+
+.wishlist_actions_wrapp{ border-top:1px solid #d4d4d4;  border-left:1px solid #d4d4d4; border-right:1px solid #d4d4d4;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+padding:15px 0px; float:left;}
+.whishlistmakepublicdiv{ float:left; background:#000000; padding: 2px 10px 0px 10px; color:#ffffff; font-weight:normal;margin-left: 15px;font-family: 'helvetica_neueregular',sans-serif;font-size: 14px;font-weight: normal; height:29px; line-height:26px;}
+.whishlistmakepublicdiv label{cursor:pointer; display:block;font-family: 'helvetica_neueregular',sans-serif;font-size: 14px;font-weight: normal;}
+.whishlistmakepublicdiv input[type="checkbox"]{ margin-right:5px;}
+.whishlistmakepublicdiv a{ color:#ffffff !important; display:block;}
+.whishlistmakepublicdiv span{ padding-right:10px;}
+.whishlistmakepublicdiv a:hover{ text-decoration:none;}
+
+.wishlist_btm_wrapp{ border-bottom:1px solid #d4d4d4;  border-left:1px solid #d4d4d4; border-right:1px solid #d4d4d4;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+padding:35px 0px; overflow:hidden; margin-bottom:20px;}
+.wishlistsection{margin-bottom:0px !important;}
+
+
+.sharediv{ float:left; background:#000000; padding: 2px 0px 0px 0px; color:#ffffff; font-weight:normal;margin-left: 15px;font-family: 'helvetica_neueregular',sans-serif;font-size: 14px;font-weight: normal; height:29px; line-height:26px;}
+.sharediv a{ padding:0px 10px;color:#ffffff !important; display:block; text-decoration:none;}
+.share_div{ background:black; position:relative; z-index:9999;}
+.share_div a:hover{ background:#de3290;}

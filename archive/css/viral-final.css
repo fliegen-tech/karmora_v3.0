@@ -1,0 +1,66 @@
+.viral_contentsection{border:1px solid #d4d4d4; overflow:hidden;}
+
+.viral_content_wrapp{ width:100%; padding:15px 30px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.viral_content_wrapp h2{text-align: center;font-size: 38px;font-family: helvetica_neueregular;color: #ffffff;background: #de3277;width: 45%;margin:0px auto 50px auto; font-weight:bold; padding:5px 0px;}
+.viral_content_wrapp p{font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; text-align:center; padding-bottom:15px; float:left; clear:both;}
+.viral_contentListing{ float:left; clear:both;}
+.viral_contentListing h3{font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; font-weight:bold;}
+.viral_contentListing ul{ padding:0px; margin:0px; float:left; padding-bottom:30px;}
+.viral_contentListing ul li{ float:left; background:url(../images/fund-raising_tick.jpg) no-repeat left 5px; padding-left:15px; margin-bottom:5px;font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; list-style:none;}
+
+.viral_contentBreaker{ width:80%; height:1px; background:#d6d6d6; margin:auto; clear:both; }
+
+.viralvideoStepsWrapp{ width:100%; margin:auto; height:auto; clear:both; padding-top:20px;}
+
+.viralvideoStepsPost{ width:50%; float:left; margin:0 auto; text-align: center;}
+
+
+
+        #videowrap { position:relative;}
+        .videotip {
+           background-color: #DE3277;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 17px;
+    font-weight: bold;
+    height: 37px;
+    opacity: 0.8;
+    padding: 7px;
+    position: absolute;
+    width: 86px;}
+        #tree { left: 400px; top: 200px;}
+        #grass { left:33px; top:263px;}
+        #cattail { left:333px; top:207px;}
+        #steven { height:112px; left:352px; top:154px; width:181px; }
+        #divs { width: 200px; height: 100px; left: 10px; top: 200px;}
+        #divs2 { width: 200px; height: 100px; left: 12px; top: 198px;}
+        #poke { font-weight:bold; width: auto; height: auto; left: 309px; top: 191px; }
+        #thx {
+            height: 40px;
+    left: 443px;
+    text-align: center;
+    top: 30px;
+    width: 165px;
+        }
+        .videotip >a {
+            color: #ffffff;
+        }
+		
+		
+		
+.viralFiveStepsWrapp{margin-top:60px; float:left; clear:both; width:100%;}
+.footprint{ background:url(../images/footprint.jpg) no-repeat center; height:76px; position:relative; z-index:20;}
+.viralFiveStepsWrapp hr{ width:100%; height:1px; background:#d7d7d7; position:relative; top:-44px; z-index:10;}
+.viralFiveStepsWrapp h2{ text-align: center;font-size: 37px;font-family: helvetica_neueregular;color: #000000; background:none; margin:0px; width:100%; padding:0px;}
+
+.viralFiveStepsContent{ width:500PX; margin:50px auto; clear:both; overflow:hidden; position:relative; padding-bottom:63px;}
+.viralFiveStepsContentleftcol{ width:18px; background:url(../images/fivesteps_sidebar.jpg) no-repeat; float:left; height:501px; position:relative; z-index:10; margin-top:56px;}
+.viralFiveStepsPost{ background:url(../images/fivesteps_post.png) no-repeat; width:493px; height:119px; position:absolute; z-index:9999; right:-1px;}
+
+.viralFiveStepsPostImg{ float:left;margin: 18px 0px 0px 15px; width:92px;margin-right: 19px;}
+.viralFiveStepsPostDescription{ font-family:Tahoma, Geneva, sans-serif; font-size:13px; color:#000000; float:left; width:330px; height:110px;}
+.joinkarmora-2{ top:127px;}
+.joinkarmora-3{ top:252px;}
+.joinkarmora-4{ top:378px;}
+.joinkarmora-5{ top:503px;}

@@ -1,0 +1,791 @@
+<!doctype html>
+<html class="no-js"
+        xmlns:og="http://ogp.me/ns#"
+        xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Sharing plugin custom configured : Flowplayer</title>
+    <meta name="description" content="The Sharing plugin in a custom configuration">
+    <meta name="keywords" content="video player for the web, flash video player,web media player, free video player,free flv player,mp4 flash player,mp4 player, open source video player,flash 9 video,flash video,web video, flv player,flv video.
+">
+    <meta name="author" content="flowplayer">
+                
+                                                        
+    <meta name="medium" content="video" />
+    <meta name="title" content="Sharing plugin custom configured" />
+    <meta name="description" content="The Sharing plugin in a custom configuration" />
+    <meta name="video_type" content="application/x-shockwave-flash" />
+    <meta name="video_height" content="360" />
+    <meta name="video_width" content="640" />
+    <link rel="video_src" href="http://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=http%3A%2F%2Ftest.karmora.com%2Fcustom.js" />
+    <link rel="image_src" href="http://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg" />
+
+    <meta property="og:url" content="http://flash.flowplayer.org/demos/plugins/flash/sharing-custom.html" />
+    <meta property="og:site_name" content="Flowplayer" />
+    <meta property="og:type" content="movie" />
+    <meta property="og:title" content="Sharing plugin custom configured" />
+    <meta property="og:description" content="The Sharing plugin in a custom configuration" />
+    <meta property="og:video:height" content="360" />
+    <meta property="og:video:width" content="640" />
+    <meta property="og:image" content="http://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg" />
+    <meta property="og:image:secure_url" content="https://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg" />
+    <meta property="og:video:type" content="application/x-shockwave-flash" />
+    <meta property="og:video" content="http://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=http%3A%2F%2Ftest.karmora.com%2Fcustom.js" />
+    <meta property="og:video:secure_url" content="https://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=https%3A%2F%2Ftest.karmora.com%2Fcustom.js" />
+
+        <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <link rel="stylesheet" href="/media/css/site.css">
+    <style>
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        div.table {
+            margin-top: 12px;
+            border-top: 1px solid #ededed;
+            background-color: white;
+             -moz-box-shadow: 0px 1px 3px #ccc; /* FF3.5+ */
+          -webkit-box-shadow: 0px 1px 3px #ccc; /* Saf3.0+, Chrome */
+                  box-shadow: 0px 1px 3px #ccc; /* Opera 10.5, IE 9.0 */
+                      filter:  progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=1px, Color='#ccc'); /* IE6,IE7 */
+                  -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0px, OffY=1px, Color='#ccc')"; /* IE8 */
+
+                       -moz-border-radius: 6px; /* FF1+ */
+                    -webkit-border-radius: 6px; /* Saf3+, Chrome */
+                            border-radius: 6px; /* Opera 10.5, IE 9 */
+        }
+
+        div.table thead th{
+            border-bottom: 1px solid #ededed;
+        }
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/media/css/syntax.css"/>
+<link rel="stylesheet" type="text/css" href="/media/css/demos.css"/>
+
+
+        <script src="/media/js/head.min.js"></script>
+        <script>
+        window.fp = window.fp || {};
+
+        head.cookie = function(name, val, expires) {
+            if (val === undefined) {
+                var cook = document.cookie;
+                if (cook) {
+                    var i = cook.indexOf(name + "=");
+                    if (i > -1) {
+                        var end = cook.indexOf(";", i);
+                        return cook.substring(i + name.length + 1, end > -1 ? end : cook.length);
+                    }
+                }
+            } else {
+                document.cookie = name +"="+ escape(val) + (
+                    expires ? ";expires=" +(new Date((new Date()).getTime() + 100000000)).toUTCString() : ""
+                );
+            }
+            return head;
+        };
+        head.feature("logged", head.cookie("authcode"));
+                head.js(
+            {jquery: "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"},
+            {tools: "http://cdn.jquerytools.org/1.2.6/all/jquery.tools.min.js"},
+            {site: "http://flash.flowplayer.org/media/js/site.js"},
+            function() {
+                        });
+        
+    </script>
+    
+<script>
+head.ready(function() {
+    // toggle category
+    $("#right header").click(function() {
+        $(this).next(".cat").toggleClass("active");
+    });
+});
+</script>
+</head>
+
+<body>
+    <div id="noticeHolder">
+        <div id="notice">
+            This is a message.
+        </div>
+        <div id="closeNotice"></div>
+    </div>
+    <noscript>
+      <div id="noscript">
+         For full video experience please enable JavaScript on your browser.
+      </div>
+    </noscript>
+    <div id="nav" class="clear">
+        <ul>
+            <li id="nav_home" >
+                <a href="/">
+                    <img src="http://flash.flowplayer.org/media/img/logo/flowplayer_flash.png">
+                </a>
+            </li>
+            <li >
+                <a href="/documentation/">Docs</a>
+            </li>
+            <li class="active">
+                <a href="/demos/">Demos</a>
+            </li>
+            <li >
+                <a href="/plugins/">Plugins</a>
+            </li>
+            <li >
+                <a href="http://flowplayer.org/forum/">Forum</a>
+            </li>
+            <li >
+                <a href="http://flowplayer.org/support/">Support</a>
+            </li>
+            <li >
+                <a href="http://flowplayer.org/pricing/">Pricing</a>
+            </li>
+            <li>
+                <span class="bar">|</span>
+            </li>
+            <li class="fp5promo" >
+                <a id="nav_html5" href="http://flowplayer.org/player/" title="Flowplayer HTML5">Flowplayer <em>HTML5</em></a>
+            </li>
+            <li id="account_link" >
+                <a href="http://flowplayer.org/account/">Account</a>
+            </li>
+            <li id="login_link">
+                <a href="http://flowplayer.org/login/">Login</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="wrap page">
+        <div id="page">
+            <div id="content" class="clear">
+        <div id="main" class="clear">
+            <section class="blurb">
+                <h1 class="teaser title">Sharing plugin custom&nbsp;configured</h1>
+                <p class="teaser text">
+                    The Sharing plugin in a custom&nbsp;configuration
+                </p>
+                                <div id="demo_area">
+                    <style>
+                    
+                    </style>                    <div class="box black"><!-- player container-->
+<a href="http://stream.flowplayer.org/Extremists.flv"    class="player"
+    style="display:block;width:425px;height:300px;margin:10px auto"
+    id="player">
+    </a>
+</div>                    <script>
+                                                head.js(
+                            "http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js",
+                            "http://cdn.jquerytools.org/1.2.6/all/jquery.tools.min.js",
+                            "http://releases.flowplayer.org/js/flowplayer-3.2.13.min.js", function(){
+                                                        });
+                        head.ready(function() {
+                            flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf",
+{
+    'plugins': {
+        'sharing': {
+            'url': 'flowplayer.sharing-3.2.15.swf',
+
+            'buttons': {
+                'overColor': '#ff0000'
+            },
+            'email': {
+                'subject': 'A cool video'
+            },
+            'embed': {
+                'fallbackUrls': [ 'Extremists.mov' ]
+            },
+
+            'facebook': {
+                'shareWindow': '_blank'
+            },
+
+            'twitter': false
+        },
+
+        'dock': {
+            'right': 15,
+            'horizontal': false,
+            'width': '10%',
+            'autoHide': false
+        }
+    },
+    'clip': {
+        'url': 'http://stream.flowplayer.org/Extremists.flv',
+        'pageUrl': 'http://flash.flowplayer.org/demos/plugins/flash/sharing-custom.html',
+        'autoPlay': false
+    }
+});
+
+                        });
+                    </script>                    <a class="standalone" href="/demos/standalone/plugins/flash/sharing-custom.html">standalone demo</a>                    <p class="intro">
+                        <p>Here is the Sharing plugin in a non-default configuration where most of the functionality has been tweaked
+ to show how the configuration looks.</p>                    </p>
+                </div>
+                </section>
+                <h2 id="configuration">Configuration</h2>
+<p>Note that all the configuration options shown below are optional. In most cases
+you don't need to specify any of these because the options have sensible default
+values.</p>
+<p>Several <a href="/plugins/flash/sharing.html#config">configuration options are available</a> if you want to tweak the behavior.
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="nx">flowplayer</span><span class="p">(</span><span class="s2">&quot;player&quot;</span><span class="p">,</span> <span class="s2">&quot;http://releases.flowplayer.org/swf/flowplayer-3.2.18.swf&quot;</span><span class="p">,</span><br /><span class="p">{</span><br />    <span class="s1">&#39;plugins&#39;</span><span class="o">:</span> <span class="p">{</span><br />        <span class="s1">&#39;sharing&#39;</span><span class="o">:</span> <span class="p">{</span><br />            <span class="s1">&#39;url&#39;</span><span class="o">:</span> <span class="s1">&#39;flowplayer.sharing-3.2.15.swf&#39;</span><span class="p">,</span><br />&nbsp;<br />            <span class="s1">&#39;buttons&#39;</span><span class="o">:</span> <span class="p">{</span><br />                <span class="s1">&#39;overColor&#39;</span><span class="o">:</span> <span class="s1">&#39;#ff0000&#39;</span><br />            <span class="p">},</span><br />            <span class="s1">&#39;email&#39;</span><span class="o">:</span> <span class="p">{</span><br />                <span class="s1">&#39;subject&#39;</span><span class="o">:</span> <span class="s1">&#39;A cool video&#39;</span><br />            <span class="p">},</span><br />            <span class="s1">&#39;embed&#39;</span><span class="o">:</span> <span class="p">{</span><br />                <span class="s1">&#39;fallbackUrls&#39;</span><span class="o">:</span> <span class="p">[</span> <span class="s1">&#39;Extremists.mov&#39;</span> <span class="p">]</span><br />            <span class="p">},</span><br />&nbsp;<br />            <span class="s1">&#39;facebook&#39;</span><span class="o">:</span> <span class="p">{</span><br />                <span class="s1">&#39;shareWindow&#39;</span><span class="o">:</span> <span class="s1">&#39;_blank&#39;</span><br />            <span class="p">},</span><br />&nbsp;<br />            <span class="s1">&#39;twitter&#39;</span><span class="o">:</span> <span class="kc">false</span><br />        <span class="p">},</span><br />&nbsp;<br />        <span class="s1">&#39;dock&#39;</span><span class="o">:</span> <span class="p">{</span><br />            <span class="s1">&#39;right&#39;</span><span class="o">:</span> <span class="mi">15</span><span class="p">,</span><br />            <span class="s1">&#39;horizontal&#39;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span><br />            <span class="s1">&#39;width&#39;</span><span class="o">:</span> <span class="s1">&#39;10%&#39;</span><span class="p">,</span><br />            <span class="s1">&#39;autoHide&#39;</span><span class="o">:</span> <span class="kc">false</span><br />        <span class="p">}</span><br />    <span class="p">},</span><br />    <span class="s1">&#39;clip&#39;</span><span class="o">:</span> <span class="p">{</span><br />        <span class="s1">&#39;url&#39;</span><span class="o">:</span> <span class="s1">&#39;http://stream.flowplayer.org/Extremists.flv&#39;</span><span class="p">,</span><br />        <span class="s1">&#39;pageUrl&#39;</span><span class="o">:</span> <span class="s1">&#39;http://flash.flowplayer.org/demos/plugins/flash/sharing-custom.html&#39;</span><span class="p">,</span><br />        <span class="s1">&#39;autoPlay&#39;</span><span class="o">:</span> <span class="kc">false</span><br />    <span class="p">}</span><br /><span class="p">});</span><br /></pre></div><br /><figcaption>JavaScript</figcaption></figure></div></p>
+<h2 id="meta-tags">HTML meta tags to share the player</h2>
+<p>When you share this page on certain social networks like Facebook, not only
+a link back to this page is shared but also the player. This viral spreading
+of the media itself is achieved by adding HTML meta attributes to your page.</p>
+<p>Here are the HTML tags and attributes needed to share this page with the player:</p>
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="cp">&lt;!doctype html&gt;</span><br /><span class="nt">&lt;html</span> <span class="na">xmlns:og=</span><span class="s">&quot;http://ogp.me/ns#&quot;</span> <span class="na">xmlns:fb=</span><span class="s">&quot;http://www.facebook.com/2008/fbml&quot;</span><span class="nt">&gt;</span><br /><span class="nt">&lt;head&gt;</span><br /><span class="c">&lt;!-- ... other head tags go here ... --&gt;</span><br />&nbsp;<br /><span class="c">&lt;!-- &quot;old-fashioned&quot; meta tags --&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;medium&quot;</span> <span class="na">content=</span><span class="s">&quot;video&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;title&quot;</span> <span class="na">content=</span><span class="s">&quot;Sharing plugin custom configured&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;description&quot;</span> <span class="na">content=</span><span class="s">&quot;The Sharing plugin in a custom configuration&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;video_type&quot;</span> <span class="na">content=</span><span class="s">&quot;application/x-shockwave-flash&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;video_height&quot;</span> <span class="na">content=</span><span class="s">&quot;360&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">&quot;video_width&quot;</span> <span class="na">content=</span><span class="s">&quot;640&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;image_src&quot;</span> <span class="na">href=</span><span class="s">&quot;http://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;video_src&quot;</span><br />   <span class="na">href=</span><span class="s">&quot;http://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=http%3A%2F%2Fd12zt1n3pd4xhr.cloudfront.net%2Ffp%2Fjs%2Fsharing_custom_config.js&quot;</span> <span class="nt">/&gt;</span><br />&nbsp;<br /><span class="c">&lt;!-- open graph meta properties --&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:url&quot;</span> <span class="na">content=</span><span class="s">&quot;http://flash.flowplayer.org/demos/plugins/flash/sharing-custom.html&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:site_name&quot;</span> <span class="na">content=</span><span class="s">&quot;Flowplayer&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:type&quot;</span> <span class="na">content=</span><span class="s">&quot;movie&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:title&quot;</span> <span class="na">content=</span><span class="s">&quot;Sharing plugin custom configured&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:description&quot;</span> <span class="na">content=</span><span class="s">&quot;The Sharing plugin in a custom configuration&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:video:height&quot;</span> <span class="na">content=</span><span class="s">&quot;360&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:video:width&quot;</span> <span class="na">content=</span><span class="s">&quot;640&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:image&quot;</span> <span class="na">content=</span><span class="s">&quot;http://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:image:secure_url&quot;</span> <span class="na">content=</span><span class="s">&quot;https://d12zt1n3pd4xhr.cloudfront.net/fp/img/flow_eye.jpg&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:video:type&quot;</span> <span class="na">content=</span><span class="s">&quot;application/x-shockwave-flash&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:video&quot;</span><br />   <span class="na">content=</span><span class="s">&quot;http://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=http%3A%2F%2Fd12zt1n3pd4xhr.cloudfront.net%2Ffp%2Fjs%2Fsharing_custom_config.js&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;og:video:secure_url&quot;</span><br />   <span class="na">content=</span><span class="s">&quot;https://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=https%3A%2F%2Fd12zt1n3pd4xhr.cloudfront.net%2Ffp%2Fjs%2Fsecure_sharing_custom_config.js&quot;</span> <span class="nt">/&gt;</span><br /><span class="nt">&lt;/head&gt;</span><br /></pre></div><br /><figcaption>HTML</figcaption></figure></div>
+
+<p>Most of the above tags are self-explanatory. Some of them, like <code>og:title</code>, may be used
+to override a page attribute for more specific use in media sharing.</p>
+<p>We have two groups of meta tags with overlapping content. A network like MySpace needs
+the group which is labeled 'old-fashioned', while Facebook and others prefer the
+<a href="http://ogp.me/">Open Graph protocol</a>.</p>
+<p>For Facebook and Open Graph it is recommended that you add these schemas to the <code>html</code> tag:
+<div class="codebox"><figure class="code"><div class="highlight"><pre><span class="nt">&lt;html</span> <span class="na">xmlns:og=</span><span class="s">&quot;http://ogp.me/ns#&quot;</span> <span class="na">xmlns:fb=</span><span class="s">&quot;http://www.facebook.com/2008/fbml&quot;</span><span class="nt">&gt;</span><br /></pre></div><br /><figcaption>HTML</figcaption></figure></div></p>
+<p>Find out more about Facebook's handling of Open Graph properties <a href="http://developers.facebook.com/docs/opengraphprotocol/">here</a>.</p>
+<h3 id="video-meta-tags">Video meta tags</h3>
+<p>The tags responsible for sharing the player are: <code>video_src</code>, <code>og:video</code>,
+<code>og:video:secure_url</code>. Their value is an URL pointing to the location of the
+Flowplayer swf file with a query containing the player configuration:</p>
+<pre><code>http://example.com/path/to/flowplayer-3.2.18.swf?
+config=http%3A%2F%2Fexample.com%2Fpath%2Fto%2Fconfig.js
+</code></pre>
+<h3 id="shared-configuration">Shared configuration</h3>
+<p>Shared players are embedded by social networks using an <a href="/demos/installation/alternate/index.html#pure-object-tag">OBJECT tag</a>. The configuration
+part therefore is formatted the same way as the <code>flashvars</code> parameter of the <code>object</code> tag and
+must then be <a href="http://www.w3schools.com/tags/ref_urlencode.asp">url-encoded</a> as it is the query part of an URL.</p>
+<p>The same restrictions apply as for all <a href="/demos/installation/alternate/index.html">alternate embedding methods</a> which install
+Flowplayer without its JavaScript API.</p>
+<p>Ensure that the URLs of the Flowplayer assets (logo, plugins etc.) in the configuration of the
+<code>og:video:secure_url</code> tag resolve to a <code>HTTPS</code> location.</p>
+<p>We recommend using an <a href="/demos/installation/alternate/index.html#external-configuration-file">external configuration file</a> because url-encoding even
+a simple configuration is error-prone and hard to maintain. As you can only share one player
+per page anyway - albeit from various locations - this is much easier as long as you stick
+to a consistent naming scheme. Often the shared configuration will vary slightly from the
+configuration of the player on the originating page, and then again a human-readable
+configuration is easier to set up - as in <a href="/demos/plugins/flash/viralvideos-extconfig.html#configuration-for-the-virally-embedded-players">this demo</a>. Note however, that the
+external configuration file used for sharing must be served from the <strong>same domain</strong> as the core
+player <code>flowplayer-3.2.18.swf</code>.</p>
+<p>The external configuration file for sharing the player on this page can be found
+<a href="http://d12zt1n3pd4xhr.cloudfront.net/fp/js/sharing_custom_config.js">here</a>, and its <code>HTTPS</code> 'secure' version
+<a href="https://d12zt1n3pd4xhr.cloudfront.net/fp/js/secure_sharing_custom_config.js">here</a>.</p>
+<h3 id="debugging-meta-tags">Debugging meta tags</h3>
+<p>Check the meta tags of your page in <a href="http://developers.facebook.com/tools/debug">Facebook's Debugger</a>.</p>
+<p>Try the value of the video meta tags in action by entering them in your browser's location bar.
+For this page just click on the following link which is the value of <code>og:video:secure_url</code>,
+and the shared player will open in its own window:</p>
+<p><a href="https://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=https%3A%2F%2Fd12zt1n3pd4xhr.cloudfront.net%2Ffp%2Fjs%2Fsecure_sharing_custom_config.js">https://d12zt1n3pd4xhr.cloudfront.net/fp/swf/flowplayer-3.2.18.swf?config=https%3A%2F%2Fd12zt1n3pd4xhr.cloudfront.net%2Ffp%2Fjs%2Fsecure_sharing_custom_config.js</a></p>        </div>
+        <div id="right" class="right">
+            <nav class="sidebar">
+                <div class="sect one" id="sect0">
+    <header>
+        <div class="icon"></div>
+        <h2 class="first">Basics</h2>
+    </header>
+    <ol class="cat">
+    <li>
+        <h3 title="Get started with Flowplayer First demo is the most important">Installation</h3>
+        <ol class="links">
+            <li>
+            <a                 title="How to use Flowplayer to display your videos"
+                href="/demos/installation/index.html">
+                Flowplayer Minimal&nbsp;Setup</a>
+            </li><li>
+            <a                 title="How to install a splash image for your videos"
+                href="/demos/installation/splash-image.html">
+                Initial splash&nbsp;image</a>
+            </li><li>
+            <a                 title="How to use multiple players in a single web page"
+                href="/demos/installation/multiple-players.html">
+                Multiple Players on one&nbsp;page</a>
+            </li><li>
+            <a                 title="Using DIV tag as the player container"
+                href="/demos/installation/div-tag.html">
+                <span class="caps">DIV</span>&nbsp;Tag</a>
+            </li><li>
+            <a                 title="flashembed, SWFObject & the OBJECT tag"
+                href="/demos/installation/alternate/index.html">
+                Alternate embedding&nbsp;methods</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Tweak the player to your needs">Configuration</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Configuring Flowplayer to auto-buffer video"
+                href="/demos/configuration/index.html">
+                Basic&nbsp;Configuration</a>
+            </li><li>
+            <a                 title="Configuring Flowplayer to use accelerated video rendering"
+                href="/demos/configuration/accelerated.html">
+                Hardware&nbsp;Acceleration</a>
+            </li><li>
+            <a                 title="Use the player to show the splash"
+                href="/demos/configuration/playlist-splash.html">
+                Splash image using a&nbsp;playlist</a>
+            </li><li>
+            <a                 title="Reuse player configuration across your site"
+                href="/demos/configuration/external.html">
+                External configuration&nbsp;file</a>
+            </li><li>
+            <a                 title="Place HTML on top of a player"
+                href="/demos/configuration/wmode.html">
+                <span class="caps">HTML</span>&nbsp;Overlays</a>
+            </li><li>
+            <a                 title="Flowplayer playlists with pictures, video and audio."
+                href="/demos/configuration/playlist.html">
+                Mixed&nbsp;playlists</a>
+            </li><li>
+            <a                 title="Change the videos in Flowplayer without editing your site"
+                href="/demos/configuration/rss-playlist.html">
+                <span class="caps">RSS</span>&nbsp;Playlists</a>
+            </li><li>
+            <a                 title="Display promotional videos at any point during the video"
+                href="/demos/configuration/instream-playlist.html">
+                In-stream&nbsp;Playlists</a>
+            </li><li>
+            <a                 title="Flowplayer allows you to stitch videos with its flexible playlist interface"
+                href="/demos/configuration/instream-complex.html">
+                A complex in-stream&nbsp;playlist</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Change the look and feel of the player to match your website">Skinning</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Pick the look that best fits your site"
+                href="/demos/skinning/index.html">
+                Changing the control bar&nbsp;skin</a>
+            </li><li>
+            <a                 title="Use styled HTML overlays on splash images"
+                href="/demos/skinning/splash-info.html">
+                Professional splash images with&nbsp;<span class="caps">HTML</span></a>
+            </li><li>
+            <a                 title="Make your splash images animated and interactive"
+                href="/demos/skinning/splash-scripted.html">
+                Awesome splashes with&nbsp;Javascript</a>
+            </li><li>
+            <a                 title="Make the player blend into your web page"
+                href="/demos/skinning/container-background.html">
+                Pimp your player&nbsp;background</a>
+            </li><li>
+            <a                 title="Inform Flowplayer about the environment"
+                href="/demos/skinning/canvas-background.html">
+                Canvas - The larger&nbsp;picture</a>
+            </li><li>
+            <a                 title="Ultimate interactivity with flash components"
+                href="/demos/skinning/canvas-swf.html">
+                Flash components on the&nbsp;canvas</a>
+            </li><li>
+            <a                 title="Contrast the variations that can be achieved using simple configurations"
+                href="/demos/skinning/skin-examples.html">
+                Two different skin&nbsp;examples</a>
+            </li><li>
+            <a                 title="Internationalize your video player"
+                href="/demos/skinning/tooltips.html">
+                Customize control bar&nbsp;tooltips</a>
+            </li><li>
+            <a                 title="Making it blend even more with your web page"
+                href="/demos/skinning/controls-background.html">
+                Background image on the control&nbsp;bar</a>
+            </li><li>
+            <a                 title="Position the player anywhere on your screen"
+                href="/demos/skinning/fixed-position.html">
+                Fixed&nbsp;positioning</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Replace Flowplayer branding with your own">Commercial&nbsp;Version</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Using your license key"
+                href="/demos/commercial/index.html">
+                Basic&nbsp;Configuration</a>
+            </li><li>
+            <a                 title="Branding your Flowplayer"
+                href="/demos/commercial/full.html">
+                Full commercial&nbsp;configuration</a>
+            </li><li>
+            <a                 title="Another technique to showcase your brand"
+                href="/demos/commercial/large-logo.html">
+                Large logo under the&nbsp;screen</a>
+            </li><li>
+            <a                 title="How to show or hide your logo on mouse hover"
+                href="/demos/commercial/logo-autohide.html">
+                Autohide the&nbsp;logo</a>
+            </li><li>
+            <a                 title="Using the object tag with the commercial player"
+                href="/demos/commercial/embed.html">
+                Alternative embed&nbsp;methods</a>
+            </li><li>
+            <a                 title="One configuration, multiple websites"
+                href="/demos/commercial/multiple-domains.html">
+                Configuring multiple&nbsp;domains</a>
+            </li>        </ol>
+        </li>    </ol>
+</div><div class="sect two" id="sect1">
+    <header>
+        <div class="icon"></div>
+        <h2>Flash <span class="amp">&amp;</span> Streaming&nbsp;Plugins</h2>
+    </header>
+    <ol class="cat active">
+    <li>
+        <h3 title="Plugins implemented in Adobe Flash">Flash&nbsp;Plugins</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Show content inside Flowplayer"
+                href="/demos/plugins/flash/index.html">
+                Content&nbsp;Plugin</a>
+            </li><li>
+            <a                 title="Use any flash component as a plugin"
+                href="/demos/plugins/flash/swf.html">
+                Ad hoc flash&nbsp;components</a>
+            </li><li>
+            <a                 title="Display information about the currently playing song"
+                href="/demos/plugins/flash/audio.html">
+                Audio&nbsp;Plugin</a>
+            </li><li>
+            <a                 title="Subtitles for your movies"
+                href="/demos/plugins/flash/captions.html">
+                Video&nbsp;Captions</a>
+            </li><li>
+            <a                 title="Fine grained animation control"
+                href="/demos/plugins/flash/animation.html">
+                Plugin&nbsp;Animation</a>
+            </li><li>
+            <a                 title="Load plugins only when you need them"
+                href="/demos/plugins/flash/load-swf.html">
+                Load plugins at&nbsp;runtime</a>
+            </li><li>
+            <a                 title="Learn how to gracefully change the screen size based on the video"
+                href="/demos/plugins/flash/screen-resize.html">
+                Match screen sizes to&nbsp;videos</a>
+            </li><li>
+            <a                 title="Track playback events with Google Analytics"
+                href="/demos/plugins/flash/analytics.html">
+                Understanding user&nbsp;engagement</a>
+            </li><li>
+            <a                 title="The menu plugin set up to show related videos"
+                href="/demos/plugins/flash/related.html">
+                Menu&nbsp;plugin</a>
+            </li><li>
+            <a                 title="The Sharing plugin in its default configuration"
+                href="/demos/plugins/flash/sharing.html">
+                Sharing</a>
+            </li><li>
+            <a class="active"                title="The Sharing plugin in a custom configuration"
+                href="/demos/plugins/flash/sharing-custom.html">
+                Sharing plugin custom&nbsp;configured</a>
+            </li><li>
+            <a                 title="Learn how to use the viral videos Flowplayer plugin"
+                href="/demos/plugins/flash/viralvideos.html">
+                Viral&nbsp;videos</a>
+            </li><li>
+            <a                 title="Customize the viral videos plugin to match your site"
+                href="/demos/plugins/flash/viralvideos-colored.html">
+                Styling the viral videos&nbsp;plugin</a>
+            </li><li>
+            <a                 title="Use external configuration to reuse common settings across your website."
+                href="/demos/plugins/flash/viralvideos-extconfig.html">
+                External Configuration for viral&nbsp;videos</a>
+            </li><li>
+            <a                 title="Make plugins interact with the user by offering buttons in the Dock"
+                href="/demos/plugins/flash/dock.html">
+                Docking buttons to interface&nbsp;plugins</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Streaming video data to Flowplayer from various sources">Streaming&nbsp;Plugins</h3>
+        <ol class="links">
+            <li>
+            <a                 title="How to allow seeking to any point in the timeline"
+                href="/demos/plugins/streaming/index.html">
+                Basic&nbsp;pseudo-streaming</a>
+            </li><li>
+            <a                 title="How to stream MP4 files"
+                href="/demos/plugins/streaming/mp4-pseudostreaming.html">
+                <span class="caps">MP4</span>&nbsp;Pseudo-streaming</a>
+            </li><li>
+            <a                 title="How to use an arbitrary frame as the splash image."
+                href="/demos/plugins/streaming/first-frame.html">
+                Splash image from any&nbsp;frame</a>
+            </li><li>
+            <a                 title="Learn how to stream multiple players on the same page"
+                href="/demos/plugins/streaming/multiple-rtmp.html">
+                Multiple <span class="caps">RTMP</span>&nbsp;players</a>
+            </li><li>
+            <a                 title="Learn how to create an RTMP playlist with audio and video clips"
+                href="/demos/plugins/streaming/rtmp-playlist.html">
+                Mixed content&nbsp;streaming</a>
+            </li><li>
+            <a                 title="Play audio live streams with Flowplayer"
+                href="/demos/plugins/streaming/audio-live.html">
+                Audio live&nbsp;streaming</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Bandwidth detection securing your media files and other useful stuff">Streaming&nbsp;Extensions</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Switch bitrates based on available bandwidth"
+                href="/demos/plugins/streaming/bandwidth-detection.html">
+                Bandwidth&nbsp;detection</a>
+            </li><li>
+            <a                 title="Dynamic quality of service monitoring and stream switching"
+                href="/demos/plugins/streaming/bwcheck-dynamic-wowza.html">
+                Monitoring service&nbsp;quality</a>
+            </li><li>
+            <a                 title="Monitoring service quality for Adobe HTTP live streaming and on iOS"
+                href="/demos/plugins/streaming/bwcheck-hds-live.html">
+                <span class="caps">HDS</span> live&nbsp;streaming</a>
+            </li><li>
+            <a                 title="Providing an interface to choose between HD and SD"
+                href="/demos/plugins/streaming/hdtoggle.html">
+                Toggle between <span class="caps">HD</span> and&nbsp;<span class="caps">SD</span></a>
+            </li><li>
+            <a                 title="Providing an interface to choose between HD and SD with HTTP Streaming"
+                href="/demos/plugins/streaming/hdtoggle-httpstreaming.html">
+                <span class="caps">HD</span>/<span class="caps">SD</span> toggle with <span class="caps">HTTP</span>&nbsp;Streaming</a>
+            </li><li>
+            <a                 title="Allow users to choose the bitrate"
+                href="/demos/plugins/streaming/brselect.html">
+                User driven bitrate&nbsp;selection</a>
+            </li><li>
+            <a                 title="Using the menu plugin for user driven bitrate selection"
+                href="/demos/plugins/streaming/brmenu.html">
+                Use a menu for bitrate&nbsp;selection</a>
+            </li><li>
+            <a                 title="Use media RSS attributes to provide hints for Flowplayer"
+                href="/demos/plugins/streaming/bwcheck-rss.html">
+                Bitrate hints from&nbsp;<span class="caps">RSS</span></a>
+            </li><li>
+            <a                 title="Use SMIL switch element to provide hints for Flowplayer"
+                href="/demos/plugins/streaming/bwcheck-smil.html">
+                Bitrate hints from&nbsp;<span class="caps">SMIL</span></a>
+            </li><li>
+            <a                 title="Use multiple media elements to provide multi bitrate hints for Flowplayer"
+                href="/demos/plugins/streaming/bwcheck-f4m.html">
+                Bitrate hints from&nbsp;<span class="caps">F4M</span></a>
+            </li><li>
+            <a                 title="Use Flowplayer client side clustering to improve reliablity"
+                href="/demos/plugins/streaming/clustering.html">
+                Client side&nbsp;clustering</a>
+            </li><li>
+            <a                 title="Use the cluster plugin to perform load balancing on the client side"
+                href="/demos/plugins/streaming/cluster-loadbalance.html">
+                Client side load&nbsp;balancing</a>
+            </li><li>
+            <a                 title="Combine client side and server side load balancing"
+                href="/demos/plugins/streaming/cluster-loadbalance-advanced.html">
+                Advanced load&nbsp;balancing</a>
+            </li><li>
+            <a                 title="Complete URL obfuscation with Wowza server"
+                href="/demos/plugins/streaming/secure-wowza.html">
+                Secure streaming with&nbsp;Wowza</a>
+            </li><li>
+            <a                 title="Use the slowmotion plugin to interactively control the playback speed."
+                href="/demos/plugins/streaming/slowmotion-fms.html">
+                Control playback speed with&nbsp;<span class="caps">FMS</span></a>
+            </li><li>
+            <a                 title="Use the slowmotion plugin to interactively control the playback speed."
+                href="/demos/plugins/streaming/slowmotion.html">
+                Control playback speed with&nbsp;Wowza</a>
+            </li><li>
+            <a                 title="Embed a youtube stream with minimal configuration"
+                href="/demos/plugins/streaming/youtube.html">
+                Stream videos from&nbsp;youtube</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Examples of streaming from different Content Delivery Networks (CDNs)">Cdns <span class="amp">&amp;</span> Video&nbsp;Platforms</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Using Flowplayer with Amazon Cloudfront"
+                href="/demos/plugins/streaming/cdns/cloudfront.html">
+                Amazon&nbsp;cloudfront</a>
+            </li><li>
+            <a                 title="Integrate Flowplayer with vzaar platform"
+                href="/demos/plugins/streaming/cdns/vzaar.html">
+                vzaar video&nbsp;platform</a>
+            </li>        </ol>
+        </li>    </ol>
+</div><div class="sect three" id="sect2">
+    <header>
+        <div class="icon"></div>
+        <h2>Scripting <span class="amp">&amp;</span> Javascript&nbsp;Plugins</h2>
+    </header>
+    <ol class="cat">
+    <li>
+        <h3 title="Events are the basis for all scripting and plugin development">Events <span class="amp">&amp;</span>&nbsp;Cuepoints</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Introduction to basic Flowplayer event handling"
+                href="/demos/events/index.html">
+                Flowplayer&nbsp;events</a>
+            </li><li>
+            <a                 title="Handling events that are propagated up to the playlist from the clip"
+                href="/demos/events/bubbling.html">
+                Event&nbsp;bubbling</a>
+            </li><li>
+            <a                 title="Learn how to track player events in google analytics"
+                href="/demos/events/google-analytics.html">
+                Setup google&nbsp;analytics</a>
+            </li><li>
+            <a                 title="Learn how to handle mouse events using Flowplayer Javascript plugin"
+                href="/demos/events/mouseover.html">
+                Handling mouse&nbsp;events</a>
+            </li><li>
+            <a                 title="Force the user to watch the first video"
+                href="/demos/events/force.html">
+                Mandatory preroll video&nbsp;clips</a>
+            </li><li>
+            <a                 title="Best practices for full screen only videos"
+                href="/demos/events/toggle-fullscreen.html">
+                Fullscreen only&nbsp;videos</a>
+            </li><li>
+            <a                 title="Handle events raised by embedded cuepoints"
+                href="/demos/events/embedded-cuepoints.html">
+                Embedded&nbsp;cuepoints</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Player events and the Flowplayer API">Scripting</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Use Flowplayer events to trigger ajax calls"
+                href="/demos/scripting/ajax.html">
+                Show clip information using&nbsp;ajax</a>
+            </li><li>
+            <a                 title="Show images over the video at predefined intervals"
+                href="/demos/scripting/pseudo-advertising.html">
+                Display ads with&nbsp;Javascript</a>
+            </li><li>
+            <a                 title="Show in-stream videos upon user interaction"
+                href="/demos/scripting/play-instream.html">
+                Mid roll&nbsp;advertising</a>
+            </li><li>
+            <a                 title="Learn how to dynamically resize your player"
+                href="/demos/scripting/grow.html">
+                Dynamic&nbsp;resizing</a>
+            </li><li>
+            <a                 title="Use HTML elements to control the Flowplayer"
+                href="/demos/scripting/anchors.html">
+                Simple Playlists using&nbsp;Javascript</a>
+            </li><li>
+            <a                 title="Learn how to use Fireunit to test your Flowplayer scripts"
+                href="/demos/scripting/fireunit.html">
+                Unit testing with&nbsp;Fireunit</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Flowplayer plugins that are placed outside the player">Javascript&nbsp;Plugins</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Learn how to make use of the javascript controls plugin"
+                href="/demos/plugins/javascript/index.html">
+                <span class="caps">HTML</span> control&nbsp;bar</a>
+            </li><li>
+            <a                 title="Skin the Javascript controls plugin with an Apple-like look and feel"
+                href="/demos/plugins/javascript/controls-apple.html">
+                Emulating the Apple video&nbsp;player</a>
+            </li><li>
+            <a                 title="Use Javascript to effortlessly play videos on the iPad"
+                href="/demos/plugins/javascript/controls-apple-ipad.html">
+                <span class="caps">HTML</span> control bar for the&nbsp;iPad</a>
+            </li><li>
+            <a                 title="Generate video embedding code for your users"
+                href="/demos/plugins/javascript/embed.html">
+                Generating embed&nbsp;code</a>
+            </li><li>
+            <a                 title="Use the playlist Javascript plugin to render playlists similar to youtube"
+                href="/demos/plugins/javascript/playlist/youtube.html">
+                Youtube like Javascript&nbsp;playlist</a>
+            </li><li>
+            <a                 title="Use CSS & Javascript to create amazing playlists"
+                href="/demos/plugins/javascript/playlist/scrollable.html">
+                Scrollable&nbsp;Playlists</a>
+            </li><li>
+            <a                 title="Create horizontal playlists that work beautifully on iPad"
+                href="/demos/plugins/javascript/playlist/horizontal.html">
+                Horizontal Scrollable&nbsp;Playlists</a>
+            </li><li>
+            <a                 title="Learn how to use the playlist and the control bar plugin in tandem"
+                href="/demos/plugins/javascript/playlist/js-controls.html">
+                Playlist with Javascript control&nbsp;bar</a>
+            </li><li>
+            <a                 title="Learn how to use RSS playlists with the playlist plugin"
+                href="/demos/plugins/javascript/playlist/rss.html">
+                <span class="caps">RSS</span>&nbsp;Playlists</a>
+            </li><li>
+            <a                 title="Learn how to use playlists with in-stream clips"
+                href="/demos/plugins/javascript/playlist/instream.html">
+                In-stream clips and&nbsp;playlists</a>
+            </li><li>
+            <a                 title="Learn how to modify the Flowplayer playlist using its API"
+                href="/demos/plugins/javascript/playlist/dynamic.html">
+                Flowplayer playlist&nbsp;<span class="caps">API</span></a>
+            </li><li>
+            <a                 title="Learn how to use the Flowplayer playlist plugin with different media types
+"
+                href="/demos/plugins/javascript/playlist/medialist.html">
+                Playlists with different&nbsp;media</a>
+            </li><li>
+            <a                 title="Learn how to show your fantastic videos on the Apple iPad without flash"
+                href="/demos/plugins/javascript/ipad.html">
+                Enabling iPad&nbsp;compatibility</a>
+            </li>        </ol>
+        </li><li>
+        <h3 title="Flowplayer can be used together with various JavaScript libraries">Javascript&nbsp;Tools</h3>
+        <ol class="links">
+            <li>
+            <a                 title="Flowplayer allows videos to be overlaid on top of any HTML content."
+                href="/demos/tools/overlay.html">
+                Video&nbsp;overlays</a>
+            </li><li>
+            <a                 title="Learn how to use a custom action for the full screen button in Flowplayer"
+                href="/demos/tools/fake-fullscreen.html">
+                Custom fullscreen&nbsp;action</a>
+            </li><li>
+            <a                 title="Learn how to show email and embed features in an overlay"
+                href="/demos/tools/sharing-overlay.html">
+                Overlay sharing&nbsp;features</a>
+            </li><li>
+            <a                 title="Learn how to show email and embed features in tabs"
+                href="/demos/tools/sharing-tabbed.html">
+                Tabbed sharing&nbsp;panes</a>
+            </li><li>
+            <a                 title="Learn how to show multiple players in tabs"
+                href="/demos/tools/tabbed-players.html">
+                Multiple players in&nbsp;tabs</a>
+            </li>        </ol>
+        </li>    </ol>
+</div>            </nav>
+        </div>
+    </div>        </div>
+    </div>
+
+    <div class="wrap footer">
+        <div id="footer" class="clear">
+            
+                        <div id="footer_bottom">
+                <iframe
+                    src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fflowplayer&amp;width=348&amp;height=214&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=true&amp;profile_id=108028552584964"
+                    scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    
+                <div id="footerlinks" class="clear">
+                    <form id="bottom_search" action="/search.html">
+                        <input type="text" placeholder="Search site" name="q" />
+                    </form>
+                    <a href="http://flowplayer.org/about/">Flowplayer Ltd</a>
+                </div>
+            </div>
+                    </div>
+    </div>
+
+    </div>
+
+    <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5877901-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+        </script>
+
+</body>
+</html>

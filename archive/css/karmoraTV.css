@@ -1,0 +1,15 @@
+.karmoratv_wrapp{ border:1px solid #d4d4d4; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; width:100%; overflow:hidden;}
+.karmoratv_heading_wrapp{ margin:30px 50px 0px 50px;}
+.karmoratv_videowrapp{ border-bottom:1px solid #d4d4d4;padding:10px 50px 30px 50px; overflow:hidden; margin-bottom:30px;}
+.karmora_vidopost{margin-right:74px;margin-bottom: 82px;}
+.karmora-Video{ width:100%; height:181px; background:#dadada; position:relative; z-index:20;}
+.karmora-Video img{ width:100%; height:181px;}
+.karmora_vidopost h2{ font-family:"Myriad Pro"; font-size:14px; color:#000000;}
+.karmora_vidopost p{ font-family:"Myriad Pro"; font-size:11px; color:#848484; line-height:14px;}
+
+
+/**********************Karmora TV Buy**************************/
+.karmoraTVaction{ clear:both; float:left; width:100%;}
+.karmoravideoprice{ float:left; font-family: 'helvetica_neueregular',sans-serif;color: #DE3277; font-size:22px;}
+.karmoraactionbutton{ background:url(../images/buy.png) no-repeat; width:106px; height:30px; float:right; cursor:pointer; border:none; text-indent:-9999px;}
+.karmora-Videolock{ position:absolute; z-index:9999; width:100%; top:0px;}

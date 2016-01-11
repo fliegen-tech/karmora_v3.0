@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* CSS Document */   
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*----------------------------------601x800 CSS STARTS-------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------
+
+@media only screen
+and (min-width : 601px)
+and (max-width : 800px) {*/
+
+.tab-only{ display:block;}
+.desk-only{ display:none;}
+.container{ width:570px; margin:0 auto;  position:relative; }
+
+/*-----Coming Soon starts-----*/
+.container-coming{ width:570px; margin:0 auto;}
+header.soon, header.privacy{ text-align:center;  padding:34px 0 34px;}
+.banner{ 	background:url(../images/comingbg-s.jpg) repeat-x 0 0; }
+
+.banner-left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 7px 7px 7px 7px;
+    float: none;
+    height: 315px;
+    padding: 20px 0;
+    width: 570px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.banner-right{
+	float:none;
+	margin:34px 0 0;
+}
+.soonName { float:left; width:47%;} .soonEmail{ float:right; width:47%;}
+.fb_btn{ float:left; margin-left:10px; }
+.soonBtns { float:left; width:312px;}
+.banrR-part{ margin-top:14px; float:right; width:208px; }
+ul.banrR{ margin-top:8px; }
+h1.coming{ font-size:30px; line-height:34px;}
+.result{ width: 499px; }
+/*-----Coming Soon ends-----*/
+
+/*-----Landing starts-----*/
+.bannerLanding-left {
+	float: none;
+    
+}
+.bannerLanding-right {
+    float: none;
+    margin:34px 0 0;
+}
+section.landing h1 span{ font-size:24px;}
+.fbLanding_btn { float:left; margin:0 0 0 30px; }
+/*-----Landing ends-----*/
+
+/*-----Package Starts-----*/
+.cashTable th{ width:40%;}
+.cashTable td{ width:60%;}
+/*-----Package Ends-----*/
+
+/*-----Home Starts-----*/
+.containerH{ width:500px; margin:0 auto; position:relative; }
+/*.productsList ul li:nth-child(odd){ margin-right:35px; margin-left:17px;}*/
+.featured{ margin-left:44px; width: 340px;}
+.featured li {margin-right: 25px; }
+
+
+.sliderBtm{text-align:center;}
+.memberDiv { float: none; margin:0 auto; }
+.joinDiv { float: none; margin:10px auto 0; text-align:center; background:#fff; }
+.joinDiv a { display:block; }
+.memJoin { padding: 10px; width: 100%; }
+.memArow { background:#fff; float:none; }
+.memberDiv { width:480px; }
+.memDesc {width: 350px;}
+.productsList ul {width: 500px; }
+
+.siteMesg-left { width: 84%; }
+.siteMesg-right{ width:16%; }
+/*-----Home Ends-----*/
+
+/*-----Main menu Starts-----*/
+ul.slimmenu, .menu-collapser{
+	width:500px; margin:0 auto;
+}
+ul.slimmenu li > ul {width: 100%; }
+ul.slimmenu > li > .sub-collapser{display:inline-block;}
+ul.slimmenu li .sub-collapser {
+   /* background: none repeat scroll 0 0 rgba(0, 0, 0, 0.075);*/
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu.collapsed li { display: inline-block; }
+ul.slimmenu li a { border-left: 5px solid #000000 !important; }
+nav  ul  li a:hover{border-left: #de3277 5px solid !important; color:#de3277;}
+.slimmenu ul > li > a i{padding-right:15px;}
+.slimmenu ul > li li a i{ padding-left:10px; padding-right:15px;}
+/*-----Main menu ends-----*/
+
+/*-----ProductList and Filter Starts-----*/
+ul.filterMain > li{ width:50%; }
+.breadfilter .breadDiv{ width:360px; }
+/*-----ProductList and Filter Ends-----*/
+
+/*-----Product Detail Starts-----*/
+.detailPic{ width:100%; float:none; border-bottom:1px dotted #888888; }
+.detailDesc{
+	float:left;
+	border-left:none;
+	width:100%;
+	padding:25px 10px 0 25px;
+}
+/*-----Product Detail Ends-----*/
+
+/******************Wishlist***********************/
+.wishlist_actions_wrapp{ width:500px;}
+.wishlist_btm_wrapp{width:500px;}
+/******************Wishlist***********************/
+.karmoratv,.karmorablog{ margin-bottom:5px;}
+
+
+/*************Karmora Tv**********************/
+.karmora_vidopost{float: left;margin-right: 9px;min-height: 250px;width: 190px;}
+.karmoratv_videowrapp:last-child{ border-bottom:0px;}
+.karmora_vidopost h2{ height:32px;}
+.tv-buy{min-height: 286px;}
+/*************Karmora Tv**********************/
+
+/***************Blog Detail************/
+.blogdetail_rightcol{ width:100%; float:left; clear:both;}
+.filter_archives{ cursor:pointer;}
+.blogdetail_leftcol h2{ width:21%; float:right;background:#eeeeee;margin-bottom:0px;border-left: 1px solid #D4D4D4;border-right: 1px solid #D4D4D4;border-top: 1px solid #D4D4D4; border-bottom:0px; font-weight:normal; text-align:right; height: 32px;padding: 6px;  position:relative; z-index:90;  color:#3d3d3d;font-size:14px;}
+
+.blogdetail_leftcol {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    position: relative;
+    top: -58px;
+}
+.blogdetail_rightcol{ margin-top:-40px;}
+.archievelisting{ background:#eeeeee; border-left:1px solid #d4d4d4;border-right:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;border-top:1px solid #d4d4d4; position:relative; z-index:20; margin-top:-2px;}
+.leftcol_blog_home{ top:-42px;}
+/***************Blog Detail************/
+/********************admin edit profile**************/
+.admin_contentsection{ width:500px;}
+.adminform_wrapp {width: 92%;}
+.adminform_row label{ width:41%;}
+.adminform_row input[type="text"], .adminform_row input[type="tel"], .adminform_row input[type="email"] .adminform_row input[type="password"]{ width:58%;}
+/********************admin edit profile**************/
+
+
+/*******************FundRaising****************/
+.adminform_row select, .funraisingArea{
+width: 58%;}
+
+/********************Video_Popup**************/
+.videopopup_content_wrapper{ padding:0px;}
+.videopopup_content_wrapper h1{ width:90%;}
+.videopopup_wrapp{ padding:6px;}
+.videopopup_area_wrapp{ width:100%;}
+.videopopup_wrapp{ width:556px;}
+.videoplayer{ width:520px; margin:auto;}
+.video-Descrption{ padding:0px 10px 0px 20px; width:100%;  -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box; margin-top:15px;}
+
+/********************Video_Popup**************/
+
+/************************Admin Reports**************************/
+
+#tablist1-panel1 {
+    display: block;
+}
+.wishlist_actions_wrapp{border-left:none !important; border-right:none !important; border-bottom: 1px solid #D4D4D4 !important;}
+.admin_contentsection{border:none !important;}
+.wishlist_btm_wrapp{ margin-bottom:0 !important;}
+.report_content_wrapp{ width:99%;}
+
+.responsive-tabs__list { display: none;}
+.responsive-tabs__heading { display: block; cursor: pointer; }
+.responsive-tabs__panel--closed-accordion-only { display: none;}
+
+.responsive-tabs-wrapper{ border:1px solid #cccccc; }
+
+.responsive-tabs__panel {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; }
+
+.inner-conentwrapper{margin-bottom:10px;}
+.responsive-tabs__heading { 
+
+
+height:37px; background:#000000; padding:0px 20px; line-height:37px;font-family: "Myriad Pro";font-size: 12px;color: #ffffff; display:block; float:left;
+background:none repeat scroll 0 0 #000;
+border-bottom:1px solid #cccccc; width:100%; margin:0px;
+
+}
+
+
+.responsive-tabs__heading:hover,
+.responsive-tabs__heading--active:hover {
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+}
+
+.responsive-tabs__heading--active {
+
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+
+}
+
+/********************Featured Companies*******************/
+.featuredcompaniesPost{margin: 0px 52px;}
+
+/*}*/
+
+/****************NewHomeFeaturedArea***************/
+.featured_row1-Col2{border-left: 1px dotted #010101; border-top: 0px dotted #010101;}
+.featured_row2-Col1{ width:500px; height:300px;}
+.featured_row2-Col2-post{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_post_title_row2-Col1,.featured_post_title_row2-Col2,.featured_post_title_row2-Col3{width: 490px;}
+.featured_row2-Col3{width:500px; height:300px;border-left: 1px dotted #010101;}
+.featured_row3-Col2{border-left: 1px dotted #010101; }
+
+
+/***********NewHome**************/
+.Desktop_img{ display:none;}
+.Tab_img{ display:block;}
+.dot3{background: url(../images/dot3-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot4{background: url(../images/dot4-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+.dot6{background: url(../images/dot6-Tab.png) no-repeat;
+width: 100%;
+height: 46px; position:absolute; top:0px; z-index:10;}
+
+
+/**************LoveIt*****************/
+.LoveItWrapp{ width:500px;}
+.LoveItWrapp h2{ width:87%;}
+
+/**************MakeIt*****************/
+.MakeItStepsPost{ width:100%; clear:both;}
+.MakeItWrapp h2{ width:100%;}
+.MakeItOffer img{ width:100%;}

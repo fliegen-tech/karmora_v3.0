@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------Breadcrumb starts----------------*/
+.breadcrumb { margin-bottom: 0; }
+.breadDiv{ float:left; }
+.filterBtn {
+    background: url("../images/filter-icn.png") no-repeat scroll 9px 9px #EEEEEE;
+    border: 1px solid #D4D4D4;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    height: 31px;
+    margin-bottom: 25px;
+    padding: 5px 10px 0 30px;
+    position: relative;
+    top: 1px;
+    width: 140px;
+    z-index: 1;
+}
+/*--------------Breadcrumb ends----------------*/
+
+/*--------------Filter  starts----------------*/
+.filters {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #D4D4D4;
+    display: none;
+    position: relative;
+    top: -25px;
+}
+.filters h2 {
+    border-bottom: 1px solid #DE3277;
+    color: #DE3277;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+    padding: 12px 20px 7px 12px;
+    text-transform: uppercase;
+}
+.filters h3 {
+    color: #3D3D3D;
+	font-weight:bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0 5px 5px 15px;
+    position: relative;
+}
+.filters h3 span {
+    font-size: 9px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+
+.filters ul{ list-style:none; padding:0; margin:0;}
+ul.filterMain{ font-size:13px; position:relative; }
+ul.filterMain > li{
+	float:left;
+	border-right:1px solid #D4D4D4;
+	display:block;
+	height:200px;
+	overflow:hidden;
+	padding:12px;
+	position:relative;
+}
+ul.filterMain > li.last{ border-right:none; }
+
+ul.cats{
+	padding:0;
+	margin:0;
+	font-size:inherit;
+}
+ul.cats > li{
+	
+}
+ul.cats > li a, ul.cats > li a:focus {
+    background: url("../images/cats-bullet.png") no-repeat scroll 10px 10px transparent;
+    color: #3D3D3D;
+    display: block;
+    font-size: 15px;
+    padding: 3px 10px 3px 22px;
+}
+ul.cats > li a:hover, ul.cats > li a:active, ul.cats > li a.active{
+	text-decoration:none;
+	background:#c2c2c2 url(../images/cats-bullet-hover.png) no-repeat 10px 9px;
+}
+	
+ul.less{ margin-bottom:15px; font-size:13px; }
+ul.less a, ul.subcats > li > a:focus{color:#939393;
+ display: block;
+    font-size: 13px;
+    padding: 3px 10px 3px 10px;
+}
+ul.less a:hover, ul.less a:focus,
+ul.subcats > li > a:active, ul.subcats > li > a.active{
+	color:#000;
+	text-decoration:none;
+}
+
+ul.subcats a, ul.stores a{ margin-bottom:3px;}
+
+ul.cats{ height:140px; overflow:hidden;}
+ul.subcats{ height:140px; overflow:hidden;}
+ul.stores{ height:140px; overflow:hidden;}
+
+
+.filters .more, .filters .les {
+    bottom: 10px;
+    color: #9F9F9F;
+    position: absolute;
+	right:20px;
+	display:none;
+}
+.filters .more{ bottom:10px; right:20px;}
+.filters .les{ top:-25px; right:20px;}
+
+
+.filters .more:hover, .filters .more:focus,
+.filters .les:hover, .filters .les:focus{ color:#000; text-decoration:none;}
+#refine{
+	padding:7px 0 0;
+	position:relative;
+	top:-25px;
+	font-size:12px;
+	display:none;
+}
+#refine ul{ padding:0; margin:0;}
+#refine li{ display:inline-block; background:#000; padding:2px 4px; color:#fff; margin:3px 3px 3px 0;}
+#refine li.clearFilters{ cursor:pointer;}
+.refineClose{
+	background:url(../images/refine-close.png) no-repeat 0 0;
+	width:14px; height:14px;
+	margin-left:10px;
+	cursor:pointer;
+}
+/*--------------Filter  ends----------------*/
+
+/*---searchResult css starts-------*/
+.searchResult{
+	color:#000;
+	font-size:20px;
+	padding:4px 0;
+}
+.searchResult span{ color:#696969; font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; }
+/*---searchResult css ends-------*/

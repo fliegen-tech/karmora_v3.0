@@ -1,0 +1,31 @@
+.signup_mainwrapper{top: 50%;left: 50%;margin-left: -232px;margin-top: -105px;position: absolute;width:464px; height:auto; }
+.signin_wrapp{ width:464px; height:auto; background:url(../images/signin_bg.png) repeat;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; padding:10px;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box; position:relative; margin:auto;}
+.signin_content_wrapper{ width:100%; clear:both; background:#000000; padding-bottom:8px;}
+.signin_content_wrapper h1{ width:100%; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:24px; color:#ffffff; text-transform:uppercase; padding:15px 0px 10px 17px; margin:0px;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box;}
+.signin_form_wrapp{ width:431px; margin:auto; clear:both; background:#ffffff; overflow:hidden; padding:23px 0px;}
+.signin_formrow{ width:321px; margin:auto auto 8px auto; clear:both; overflow:hidden;}
+.signin_formrow label{ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#000000; float:left; width:91px; padding-top:5px;}
+.signin_formrow input[type="text"], .signin_formrow input[type="password"]{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:3px solid #e8e8e8; background:#ffffff; width:224px; height:25px; line-height:19px; float:right;font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#000000;}
+.login_btn{ background:url(../images/login_btn.jpg) no-repeat; width:52px; height:20px; float:left; border:none; cursor:pointer; text-indent:-9999px; margin-left:99px;}
+.forgotlink{ float:left; text-decoration:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#e008a0; margin-left:20px; margin-top:3px;}
+.sigin_siciallink{clear: both;float: left;margin-top: 8px;margin-left: 99px;}
+.fbLanding_btn:active, .login_btn:active {	position: relative;	top: 1px;}
+.signin_res{ margin:0px !important;}
+.fbLanding_btn {background: url(../images/landingFb.jpg) no-repeat 0 0;	width: 191px;	height: 30px;	border: 0;}
+.signin_close_btn{ background:url(../images/signin_closebtn.png) no-repeat; width:22px; height:23px; border:none; cursor:pointer; position:absolute;right: 12px;top: -5px;}
+.errordiv{font-family: Tahoma, Geneva, sans-serif;font-size: 11px;color: #969696;float: left;clear: both;margin-left: 99px;font-style: italic;}
+.overlay {
+ 	position:absolute;
+	/*display:none; */
+
+    /* color with alpha transparency */
+    background-color: rgba(0, 0, 0, 0.7);
+
+    /* stretch to screen edges */
+    top: 0;
+	left: 0;
+    bottom: 0;
+    right: 0;
+}

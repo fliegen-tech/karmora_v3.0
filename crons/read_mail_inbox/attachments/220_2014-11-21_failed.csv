@@ -1,0 +1,2 @@
+"SubscriptionID","SubscriptionStatus","Payment#","TotalRecurrences ","TransactionID","Amount","Currency","Method","CustFirstName","CustLastName","RespCode","RespText"
+"22712634","Suspended","1","9999","6684910667","1.00","USD","Credit Card","baig","baig","37","The credit card number is invalid."

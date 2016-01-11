@@ -1,0 +1,65 @@
+/*======================================
+9  - Media Quries
+=======================================*/
+
+@media all and (max-width: 1024px) {
+	.list-inline > li {
+		padding: 0;
+	}
+	.navbar-brand {
+		margin-top: 15px;
+	}
+	.navbar-nav > li > a {
+	    padding-bottom: 7px;
+	    padding-top: 7px;
+	}
+	.navbar {
+		height: 416px;
+	}
+	.exclusive-deal-label a {
+		padding: 10px;
+		font-size: 22px;
+	}
+	.k-prod-des h3, .k-price {
+		font-size: 20px;
+	}
+	.k-product-single-cover {
+		height: 422px;
+	}
+	.k-prod-hover > a, .view-all-btn a {
+		padding: 7px 20px;
+		 margin-top: 12px;
+	}
+	.k-prod-hover > p {
+		font-size: 14px;
+	}
+	.singl-circle {
+		width: 300px;
+		height: 300px;
+	}
+	.icon-cover {
+		line-height: 300px;
+	}
+	.subscribeform .button-cover button {
+		font-size: 18px;
+	}
+
+
+
+
+}
+@media all and (max-width: 768px) {
+	.topbar-cover {
+		height: auto;
+	}
+
+}
+@media all and (max-width: 640px) {
+
+}
+@media all and (max-width: 480px) {
+
+}
+@media all and (max-width: 320px) {
+
+}

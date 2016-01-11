@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------Common css starts----------------*/
+.wrap { background: #fff; }
+.bodyWrap { padding: 30px 0; }
+section.home { margin-bottom: 40px; clear:both; }
+section.home h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	padding: 5px 0 7px;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 0 20px;
+}
+section.home h1 span{ background:#000; padding:5px; display:inline-block; font-family: 'helvetica_neueregular',sans-serif; font-weight:normal;}
+/*--------------Common css ends----------------*/
+
+/*--------------Ads css starts----------------*/
+.advert1 {
+	position: absolute;
+	right: -130px;
+	height: 600px;
+	width: 120px;
+}
+/*--------------Ads css ends----------------*/
+
+/*--------------Header section starts----------------*/
+header {
+	border-top: #000000 2px solid;
+	margin: 0;
+	padding:0;
+	background:url("../images/body-bg.gif") repeat scroll 0 0 transparent;
+}
+.loginBar {
+    background: url("../images/loginBar.png") repeat-x scroll 0 bottom #EEEEEE;
+    height: 25px;
+    margin-bottom: 6px;
+    padding-top: 3px;
+    text-align: right;
+}
+.loginBar a{ 
+	color:#7c7c7c;
+	font-size:14px;
+	margin:0 3px;
+	text-decoration:none;
+	font-family: 'helvetica_neueregular',sans-serif;
+}
+
+.karmora-logo {
+	background: url(../images/karmora-websiteLogo.png) no-repeat 0 0;
+	height: 70px;
+	width: 250px;
+}
+
+.hdr-right {
+	position: absolute;
+	right: 0;
+	top: 20px;
+	width: 192px;
+}
+
+.searchDiv {
+    height: 32px;
+    position: relative;
+    width: 192px;
+}
+
+.searchDiv .search {
+    border: 1px solid #DADADA;
+    color: #9C9C9C;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 32px;
+    padding: 0 27px 0 0;
+    width: 192px;
+}
+
+
+.lt-ie9 .searchDiv .search {
+	line-height: 32px;
+}
+
+.searchDiv .search-btn {
+	background: url(../images/search-btn.gif) no-repeat 0 0;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	right: 5px;
+	top: 9px;
+}
+/*--------------Header section ends----------------*/
+
+/*--------------Nav section starts----------------*/
+nav {
+    background: none repeat scroll 0 0 #000000;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 8px;
+    width: 100%;
+}
+
+/*--------------Nav section ends----------------*/
+
+
+/*--------------Site Messages section starts----------------*/
+.siteMessages {
+    background: none repeat scroll 0 0 #EEEEEE;
+    width: auto;
+	color: #7C7C7C;
+}
+.siteMesg-left {
+    
+    float: left;
+    font-family: georgia,times new roman,serif;
+    font-size: 12px;
+    font-style: italic;
+    overflow: hidden;
+    padding: 8px 0;
+    width: 92%;
+}
+.siteMesg-right{
+	float:right;
+	width:8%;
+	text-align:right;
+	margin-top:5px;
+}
+.close-icn{
+	background:url(../images/close_icn.png) no-repeat 100% 0;
+	padding:4px 30px 3px 0;
+	color: #7C7C7C;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	font-family: 'helvetica_neueregular',sans-serif;
+	display:block;
+}
+/*--------------Site Messages section ends----------------*/
+
+/*--------------Product List starts----------------*/
+.productsList ul {
+    border-right: 1px dotted #000000;
+    border-top: 1px dotted #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.productsList ul li {
+	width: 249px;
+	height: 305px;
+	float: left;
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	font-weight: normal;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 18px;
+	border-left:#000 1px dotted;
+	border-bottom:#000 1px dotted;
+	background:#fff;
+}
+
+.productsList li h3.pl {
+    color: #000000;
+    
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 10px 0 0;
+    padding: 0;
+}
+div.pls {
+	font-size:12px;
+	color:#757575;
+	font-style:italic;
+}
+div.pls a{ color:#3da1d2; text-decoration:none;}
+
+.productsList li h4.pl {
+	color: #de3277;
+	margin: 0;
+	font-size: 18px;
+	font-weight:normal;
+	font-style:italic;
+}
+
+.productDiv {
+	width: 248px;
+	height: 262px;
+	overflow: hidden;
+	position: relative;
+}
+
+.favorite, .notFavorite{
+	position:absolute;
+	right:5px;
+	top:5px;
+	background:url(../images/like.png) no-repeat 0 0;
+	width:22px;
+	height:20px;
+	cursor:pointer;
+}
+.favorite{background:url(../images/fav_selected.png) no-repeat 0 0;}
+.notFavorite{background:url(../images/fav_unselected.png) no-repeat 0 0;}
+
+.ProductImg, .ProductImg img {
+	width: 248px;
+	height: 248px;
+}
+
+.buyDetail{ float:right;
+display:block;
+padding:4px;
+color:#fff;
+font-size:12px;
+font-family:Georgia, "Times New Roman", Times, serif;
+background:#000;
+text-decoration:none;
+margin:2px 5px 0 0;
+font-style:italic;
+}
+.buyDetail:hover, .buyDetail:focus{ text-decoration:none; color:#fff;}
+
+.tweetPad{ padding:17px 0 0;}
+.tweetDiv {
+	padding:0;
+	margin:0 0 0 5px;
+	float:left;
+}
+
+.tweetIt, .pinIt, .likeIt {
+	background-image: url(../images/tweet-icons.png);
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+.tweetIt {
+	background-position: 0 0;
+	width: 59px;
+}
+
+.pinIt {
+	background-position: 0 -20px;
+	width: 40px;
+}
+
+.likeIt {
+	background-position: 0 -40px;
+	width: 44px;
+}
+
+.tweetDiv .twitter-share-button { width: 100px !important; }
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr { display: none !important; }
+
+.fb-like {
+	height: 20px;
+	overflow: hidden;
+}/*--------------Product List ends----------------*/
+
+/*--------------Footer starts----------------*/
+footer {
+	background:#000;
+	border-top: #de3277 3px solid;
+	border-bottom: #de3277 3px solid;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #a5a5a5;
+	padding: 25px 0;
+	
+	height:110px;
+}
+
+footer a { color: #a5a5a5; text-decoration:none; }
+
+footer a:hover { color: #a5a5a5; }
+
+.ftr-right {
+	position: absolute;
+	right: -10px;
+	top: -2px;
+	width: 152px;
+}
+
+.ftr-right .social {
+	padding: 0;
+	margin: 0;
+}
+
+.ftr-right .social li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.social .fb, .social .youtube, .social .google, .social .twitter, .social .pin {
+	background-image: url(../images/socialN.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	width: 28px;
+	height: 28px;
+}
+
+.social .fb { background-position: -28px 0; }
+
+.social .twitter { background-position: -56px 0; }
+
+.social .google { background-position: -57px 0; }
+
+.social .youtube { background-position: 0 0; }
+
+.social .pin { background-position: -87px 0; }
+
+.social a:active {
+	position: relative;
+	top: 1px;
+}
+/*--------------Footer ends----------------*/
+
+.breadcrumb { margin-bottom: 20px; }
+/*
+* Lock CSS Starts
+* Please do not un-comment this css without my permission
+* Tauqeer Abbas
+
+
+3897- .breadcrumb {
+    font-size: 11px;
+    list-style: none outside none;
+    margin-bottom: 20px;
+    padding: 8px 15px 8px 0;
+}
+*
+* Lock CSS Ends
+*/
+
+
+/**************Admi area****************************/
+.wishlist_nav_Wrapp{ clear: both;width: 100%;overflow: hidden;margin-bottom: 18px;}
+.wishlist_nav_Wrapp ul{ padding:0px; margin:0px; clear:both;}
+.wishlist_nav_Wrapp ul li{ float:left; display:inline-block; list-style:none; height:50px;}
+.wishlist_nav_Wrapp ul li a{ font-family:"Myriad Pro"; font-size:14px; color:#7c7c7c; display:block; padding:8px 10px 11px 10px; line-height:19px; position:relative;}
+.wishlist_nav_Wrapp ul li a:hover , .wishlist_nav_Wrapp ul li a.active{ background: #000000 url(../images/wishlist_nav_hover.jpg) no-repeat center 37px;
+color: #ffffff;
+text-decoration: none;
+line-height: 23px;}
+.wishlistbcrum{ margin-bottom:0px;}
+
+/***************Newhome*******************/
+.category_btn{ background:#3e3e3e; height:40px; line-height:40px; width:99%; margin:auto;}
+.category_btn a{font-family:Georgia, "Times New Roman", Times, serif; font-size:20px; color:#ffffff; display:block; font-style:italic; font-weight:normal; }
+.category_btn:hover{ background:#de3277;}

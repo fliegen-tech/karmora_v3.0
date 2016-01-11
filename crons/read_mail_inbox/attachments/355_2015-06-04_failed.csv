@@ -1,0 +1,2 @@
+"SubscriptionID","SubscriptionStatus","Payment#","TotalRecurrences ","TransactionID","Amount","Currency","Method","CustFirstName","CustLastName","RespCode","RespText"
+"22817887","Active","7","9999","7230947079","9.99","USD","Credit Card","Michelle","Robicheaux","2","This transaction has been declined."

@@ -1,0 +1,771 @@
+{
+    "domainEntitites": [
+        {
+            "domainName": "nutrisystem.com",
+            "storeName": "Nutrisystem",
+            "serpText": "30.0% Cash Back",
+            "greenTooltip": "You are earning 30.0% Cash Back at Nutrisystem"
+        },{
+            "domainName": "macys.com",
+            "storeName": "Macys",
+            "serpText": "Up to 3.50% Cash Back",
+            "greenTooltip": "You are earning Up to 3.50% Cash Back at Macys"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "domainName": "nike.com",
+            "storeName": "Nike",
+            "serpText": "Up to 4.20% Cash Back",
+            "greenTooltip": "You are earning Up to 4.20% Cash Back at Nike"
+        },{
+            "domainName": "jane.com",
+            "storeName": "Jane",
+            "serpText": "3.00% Cash Back",
+            "greenTooltip": "You are earning Up to 3.00% Cash Back at Jane"
+        },{
+            "storeId": "1647",
+            "domainName": "nordstrom.com",
+            "storeName": "Nordstrom",
+            "serpText": "Up to 17% Cash Back",
+            "greenTooltip": "You are earning Up to 14% Cash Back at Nordstrom"
+        }
+        ]
+}

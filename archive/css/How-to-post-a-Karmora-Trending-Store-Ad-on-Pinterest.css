@@ -1,0 +1,9 @@
+.secureWrapp{ width:1000px; margin:auto; height:auto; clear:both;}
+.secureWrapp h2{ text-align: left;font-size: 32px;font-family: helvetica_neueregular;color: #de3277;margin:0px auto 0px auto; font-weight:bold;}
+.securePost{ width:100%; clear:both; float:left; text-align:center;}
+.securePost img{ clear:both; border:1px solid #CCC;}
+.securePost h3{ text-align: left;font-size: 28px;font-family: helvetica_neueregular;color: #272727; clear:both; font-weight:bold;}
+.securePost h4{ text-align: left;font-size: 18px;font-family: helvetica_neueregular;color: #de3277; clear:both; font-weight:bold; padding:020px 0px 10px 0px;}
+.securePost p{font-family: Tahoma, Geneva, sans-serif;font-size: 14px;color: #272727; text-align:left; clear:both; line-height:20px; margin-top:19px;}
+.securePost ul{ padding-left:10px; margin:0px; float:left; padding-bottom:30px; width: 1000px;}
+.securePost ul li{font-family: Tahoma, Geneva, sans-serif;font-size: 14px;color: #272727; text-align:left; clear:both; line-height:20px; list-style:none; background:url(../images/fund-raising_tick.jpg) no-repeat left 5px; padding-left:20px; margin-bottom:5px; width: 1000px;}

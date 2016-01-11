@@ -1,0 +1,19 @@
+.featuredcompaniespages h1 span{
+	background:none !important;
+padding: 5px;
+display: inline-block;
+font-family: 'helvetica_neueregular',sans-serif;
+color:#515151; font-size:30px; text-transform:uppercase; font-weight:bold !important;
+}
+.featuredcompaniesWrapp{ 
+width:100%; clear:both; border:1px solid #c2c2c2;  
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; overflow:hidden;}
+		  
+.featuredcompaniesWrapp h1{font-family:helvetica_neueregular !important; font-size:20px !important; color:#de3277 !important; background:#eeeeee !important;border-bottom:1px solid #c2c2c2 !important;  font-weight:normal !important; padding:10px 15px 10px 15px !important; }
+.featuredcompaniesRow{ width:100%; float:left; clear:both;border-bottom:1px solid #c2c2c2; padding-top:18px;}
+.featuredcompaniesRow:last-child{ border:0px;}
+.featuredcompaniesPost{ width:145px; height:auto; float:left; margin:0px 27px;}
+.featuredcompaniesPost h2{ text-align:center;}
+.featuredcompaniesPost h2 a{font-family:helvetica_neueregular !important; font-size:18px !important; color:#de3277 !important; text-align:center;}

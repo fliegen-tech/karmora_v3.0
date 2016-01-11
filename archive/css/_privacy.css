@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap{background:url("../images/advert-pattern.gif") repeat scroll 0 0 transparent;}
+.logo{
+	background:url(../images/karmora-logo.png) no-repeat 0 0;
+	width:335px;
+	height:94px;
+	margin:0 auto;
+}
+header.privacy{ border-bottom:4px solid #E0247C; background:#fff;}
+.bodyWrap{ padding:30px 20px;}
+.banner{ padding:33px 0;}
+
+h3.soon{ margin:0 0 10px;}
+
+section a{ color:#5f0024;}
+h1.coming{	text-align:center; }
+
+footer{
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+	line-height:24px;
+	padding-top:20px;
+	border-top:#c1c1c1 1px solid; background:#fff;
+}
+
+footer a{ color:#010101;}
+footer a:hover{ color:#e0247c;}
+.ftr-right {
+	position:absolute;
+	right:0;
+	top:98px;
+	width:151px;
+}
+
+.ftr-right .social {
+	padding: 0;
+	margin: 0;
+}
+
+.ftr-right .social li {
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.social .fb, .social .youtube, .social .google, .social .twitter, .social .pin {
+	background-image: url(../images/social-icons.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+}
+
+.social .fb {
+	background-position: 0 0;
+	width: 26px;
+	height: 26px;
+}
+
+.social .twitter {
+	background-position: -26px 0;
+	width: 31px;
+	height: 26px;
+}
+
+.social .google {
+	background-position: -57px 0;
+	width: 26px;
+	height: 26px;
+}
+
+.social .youtube {
+	background-position: -83px 0;
+	width: 28px;
+	height: 27px;
+}
+.social .pin {
+	background-position: -111px 0;
+	width: 26px;
+	height: 26px;
+}
+.social a:active{position:relative; top:1px;}
+.container-coming{ position:relative;}
+header.soon{ margin:4px 0;}
+

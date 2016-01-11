@@ -1,0 +1,106 @@
+
+/* REQUIRED for core functionality */
+
+
+.responsive-tabs__heading { display: none;}
+.responsive-tabs__list__item { display: inline; cursor:pointer;}
+
+
+@media (max-width: 1023px) {
+.responsive-tabs__list { display: none;}
+.responsive-tabs__heading { display: block; cursor: pointer; }
+.responsive-tabs__panel--closed-accordion-only { display: none;}
+}
+
+@media (min-width: 1024px) {
+.responsive-tabs__panel--closed-accordion-only { display: block !important;}
+}
+
+/* END - Required for core functionality */
+
+
+/* OPTIONAL - Basic Skin */
+
+.responsive-tabs-wrapper { 
+clear: both;
+zoom: 1; 
+}
+.responsive-tabs-wrapper:before,
+.responsive-tabs-wrapper:after {
+content: "";
+display: table;
+} 
+.responsive-tabs-wrapper:after {
+clear: both;
+}
+
+.responsive-tabs__heading:focus,
+.responsive-tabs__list__item:focus { outline:none;  }
+
+.responsive-tabs__heading--active:focus,
+.responsive-tabs__list__item--active:focus { outline: none !important;}
+
+.responsive-tabs__list { 
+border: 1px solid #d4d4d4; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+font-size: 1.2em;
+line-height: 1em;
+margin: 0px 0px 0px 0px; border-bottom:0px; width:997px;
+overflow: hidden;
+padding: 10px 0px 10px 10px;}
+
+.responsive-tabs__list__item {    
+
+height:37px; background:#000000; padding:0px 20px; line-height:37px;font-family: "Myriad Pro";font-size: 12px;color: #ffffff; display:block; float:left;
+
+}
+
+.responsive-tabs__list__item:hover {
+	
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+
+}
+
+
+
+.responsive-tabs__list__item--active, 
+.responsive-tabs__list__item--active:hover {   
+ 
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+
+}
+
+.responsive-tabs__panel {}
+
+@media (max-width: 1023px) {
+.responsive-tabs-wrapper{ border:1px solid #cccccc; }
+
+.responsive-tabs__panel {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; }
+
+.inner-conentwrapper{margin-bottom:10px;}
+.responsive-tabs__heading { 
+
+
+height:37px; background:#000000; padding:0px 20px; line-height:37px;font-family: "Myriad Pro";font-size: 12px;color: #ffffff; display:block; float:left;
+background:none repeat scroll 0 0 #000;
+border-bottom:1px solid #cccccc; width:100%; margin:0px;
+
+}
+
+
+.responsive-tabs__heading:hover,
+.responsive-tabs__heading--active:hover {
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+}
+
+.responsive-tabs__heading--active {
+
+ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;
+
+}
+
+}
+
+/* END - Optional - Basic Skin */

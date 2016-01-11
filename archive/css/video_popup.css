@@ -1,0 +1,27 @@
+.videopopup_wrapp{height:auto; background:url(../images/signin_bg.png) repeat;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; padding:10px;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box; position:relative; margin:auto;}
+.videopopup_content_wrapper {width: 100%;clear: both;background: #000000;padding-bottom: 8px;}
+
+.videopopup_content_wrapper h1{ width:100%; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:24px; color:#ffffff; text-transform:uppercase; padding:15px 0px 10px 12px; margin:0px;-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;box-sizing: border-box;}
+.videopopup_close_btn {background: url(../images/signin_closebtn.png) no-repeat;width: 22px;height: 23px;border: none;cursor: pointer;position: absolute;right: 20px;top: 26px;}
+.videopopup_area_wrapp {width: 97%;margin: auto;clear: both;background: #ffffff;overflow: hidden;padding: 23px 0px;}
+.video-Descrption{font-family: "Myriad Pro";font-size: 13px;color: #919191;font-weight: normal; float:left;}
+.VD-Cpntent{ margin-bottom:15px;}
+.karmoraTVaction {clear: both;float: left;width: 100%;}
+.karmoravideoprice {float: left;font-family: 'helvetica_neueregular',sans-serif;color: #DE3277;font-size: 22px;}
+
+.karmoraactionbutton {background: url(../images/buy.png) no-repeat;width: 106px;height: 30px;float: right;cursor: pointer;border: none;text-indent: -9999px;}
+
+.overlay { 	position:absolute;
+/*display:none; */
+
+    /* color with alpha transparency */
+    background-color: rgba(0, 0, 0, 0.7);
+
+    /* stretch to screen edges */
+    top: 0;
+	left: 0;
+    bottom: 0;
+    right: 0;
+}

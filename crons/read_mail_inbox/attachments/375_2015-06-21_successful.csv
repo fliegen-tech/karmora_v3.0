@@ -1,0 +1,2 @@
+"SubscriptionID","SubscriptionStatus","Payment#","TotalRecurrences ","TransactionID","Amount","Currency","Method","CustFirstName","CustLastName","RespCode","RespText"
+"22712660","Active","8","9999","7282097828","9.99","USD","Credit Card","Mike","Maksudian","1","This transaction has been approved."

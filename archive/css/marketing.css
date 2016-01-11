@@ -1,0 +1,23 @@
+.backofficeWrapp{ width:100%; margin:auto; height:auto; clear:both;}
+.backofficeWrapp h2{ text-align: center;font-size: 38px;font-family: helvetica_neueregular;color: #de3277;margin:20px auto 60px auto; font-weight:bold;}
+.backofficeStepsWrapp{ width:100%; clear:both; float:left;}
+.backofficeStepsPost{ width:500px; height:550px; margin:0 auto; background-image: url(../images/backoffice/backoffice-logo-bg.jpg); background-repeat:no-repeat; background-position:center top}
+
+.bo-main-background-img{ padding-top:52px;}
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+		  width:99px;
+		  height:99px;
+}
+ 
+.tilt:hover {
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+       -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}

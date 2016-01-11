@@ -1,0 +1,10 @@
+.privacysection{ width:100%; float:left; padding:10px 0px;}
+.privacysection h2{padding: 5px;display: inline-block;font-family: 'helvetica_neueregular',sans-serif;font-weight: normal; font-size:25px; padding:0px; margin:0px;}
+.privacysection p{font-family: "Myriad Pro";font-size: 14px;color: #000000; padding:10px 0px; clear:both; overflow:hidden;}
+.privacysection h3{font-family: 'helvetica_neueregular',sans-serif;font-weight: normal; font-size:20px; color:#707070;  margin-bottom:5px;}
+.privacysection ul{ padding:0px; margin: 0px 0px 0px 34px; clear:both;}
+.privacysection ul li{ float:left; clear:both;font-family: "Myriad Pro";font-size: 14px;color: #000000;}
+
+
+/******************Terms Of Use************************/
+.styledtext{ font-style:italic; margin-left:20px; clear:both; display:block;}

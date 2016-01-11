@@ -1,0 +1,16 @@
+<?php
+$con=mysqli_connect("74.208.218.238","karmoralive","8sEdTG8tuPwqUrSV","karmora_v2_2");
+// Check connection
+if (mysqli_connect_errno()) {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+$result = mysqli_query($con,"select title from view_page");
+
+while($row = mysqli_fetch_array($result)) {
+  echo $row['Title'] ;
+  echo "<br>";
+}
+
+mysqli_close($con);
+?>

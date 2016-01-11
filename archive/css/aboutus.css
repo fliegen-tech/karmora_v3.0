@@ -1,0 +1,21 @@
+.about-up {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #C1C1C1;
+    border-top: 1px solid #C1C1C1;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+ul.aboutup{
+	float:left;
+	margin:0 3%;
+	width:44%;
+	padding:0;
+ }
+ul.aboutup li {
+    background: url("../images/tick.png") no-repeat scroll 0 7px transparent;
+    list-style: none outside none;
+    margin-bottom: 5px;font-family: sans-serif; font-size:15px;
+    padding-left: 25px; 
+}
+ul.aboutdown li{ margin-bottom:10px;font-family: sans-serif; font-size:15px;}
+.aboutpage h2{padding: 5px;display: inline-block;font-family: 'helvetica_neueregular',sans-serif;font-weight: normal; font-size:24px; color:#000000;}

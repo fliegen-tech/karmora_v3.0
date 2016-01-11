@@ -1,0 +1,139 @@
+.wishlist_actions_wrapp{ border-top:1px solid #d4d4d4;  border-left:1px solid #d4d4d4; border-right:1px solid #d4d4d4;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+padding:15px 0px;min-height:51px;}
+.wishlist_actions_wrapp h2{ font-family:"Myriad Pro"; font-size:18px; color:#000000; padding:0px; margin:0px 0px 0px 20px; }
+.admin_contentsection{border:1px solid #d4d4d4; overflow:hidden;}
+.adminform_wrapp{ width:96%; margin:auto;  padding:20px 0px;}
+.adminform_row{ float:left; clear:both; width:100%; margin-bottom:15px;font-size: 12px;color: #2c364d;font-weight: normal;}
+.adminform_row label{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#2c364d; font-weight:normal; float:left; width:20%;}
+.adminform_row input[type="text"], .adminform_row input[type="tel"], .adminform_row input[type="email"], .adminform_row input[type="password"]{ width:30%; float:left; height:20px; line-height:20px; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#858585; font-style:italic; padding:0px 10px;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; border:1px solid #bdbdbd;}
+.profile-username{font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#858585;}
+.image-placeholder{ width:83px; height:93px; float:left; background:#e6e6e6;}
+
+#file_browse_wrapper {
+width: 64px;
+height: 25px;
+background:url(../images/browse_btn.jpg) no-repeat;
+border:none;
+overflow:hidden; float:left; margin-left:20px;
+}
+#file_browse_wrapper:hover {
+background:url(../images/browse_btnhover.jpg) no-repeat;
+}
+#file_browse_wrapper:active {
+background:url(../images/browse_btnhover.jpg) no-repeat;
+}
+#file_browse{
+margin-left:-145px;font-family:Georgia, "Times New Roman", Times, serif; font-size:12px; color:#ffffff;
+opacity:0;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+
+.adminupdate_btn{ font-family:arial; font-size:12px; color:#ffffff; background:#000000; padding:3px 10px 0px 10px; border:none; cursor:pointer; text-transform:uppercase; float:left; height:25px; line-height:20px; font-style:italic; margin-left:192px; margin-right:15px;}
+.adminupdate_btn:hover{ background:#de3277;}
+
+.admincancel_btn{ font-family:arial; font-size:12px; color:#ffffff; background:#9c9c9c; padding:3px 10px 0px 10px; border:none; cursor:pointer; text-transform:uppercase; float:left; height:25px; line-height:20px; font-style:italic;}
+.admincancel_btn:hover{ background:#de3277;}
+.currentpass{ margin-bottom:40px;}
+
+
+/**********************fund raising****************/
+
+.adminform_row select{ width:30%; float:left; height:20px; line-height:20px; font-family:Tahoma, Geneva, sans-serif; font-size:12px; color:#858585; font-style:italic; padding:0px 0px 0px 10px;  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box; border:1px solid #bdbdbd !important;}
+
+.funraising_video_wrapp{width:100%; background:url(../images/fund-raising_video_bg.jpg) no-repeat; background-size:cover; min-height:455px; padding-top:50px;}
+.funraising_video{ margin:auto; width:640px;}
+.funraising_content_wrapp{ width:100%; padding:15px 30px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.funraising_content_wrapp h2{font-family:helvetica_neueregular; font-size:27px; color:#de3277; font-weight:bold; text-align:center;}
+.funraising_content_wrapp p{font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; text-align:center; padding-bottom:15px; float:left; clear:both;}
+.funraising_contentListing{ float:left; clear:both;}
+.funraising_contentListing h3{font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; font-weight:bold;}
+.funraising_contentListing ul{ padding:0px; margin:0px; float:left;}
+.funraising_contentListing ul li{ float:left; background:url(../images/fund-raising_tick.jpg) no-repeat left 5px; padding-left:15px; margin-bottom:5px;font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#272727; list-style:none;}
+.funraising_content_wrapp h3{font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#272727;font-weight:bold; text-align:center; padding-top:10px; float:left; line-height:21px;}
+.funraising_contentBreaker{ width:80%; height:1px; background:#d6d6d6; margin:auto; clear:both;}
+.funraisingArea{width: 30%;
+float: left;
+height: 100px;
+line-height: 20px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 12px;
+color: #858585;
+font-style: italic;
+padding: 0px 10px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border: 1px solid #bdbdbd !important;}
+.FundRaisingForm h2{ font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:#000000; margin:0px; font-weight:bold; margin-bottom:25px;}
+
+
+/**********New Admin**************/
+.month_selection{ float:right; margin-right:10px;}
+.month_selection .select{ background:#000000; width:124px; margin-top:7px;}
+.report_submenu{ float:left; width:80%; margin-left:10px;}
+.report_submenu ul{ padding:0px; margin:0px;}
+.report_submenu ul li{ list-style:none; display:inline; float:left;}
+.report_submenu ul li a{ height:37px; background:#000000; padding:0px 20px; line-height:37px;font-family: "Myriad Pro";font-size: 12px;color: #ffffff; display:block;}
+.report_submenu ul li a:hover{ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;}
+.report_submenu ul li a.active{ background:#000000 url(../images/sublisting_hover.jpg) no-repeat center bottom; text-decoration:none;}
+.report_content_wrapp{width: 100%;margin: auto;padding: 20px 0px;}
+.report_content_wrapp h2{  font-weight:normal; float:left; margin:0px 0px 0px 16px; font-size:20px; font-family:Tahoma, Geneva, sans-serif; color:#de3277;}
+
+.report_data_wrapp{ float:left; width:100%; margin-top:15px; margin-bottom:15px;}
+.report_data_wrapp table th{ background:#f8f8f8; border-bottom:1px solid #d0d0d0;  border-top:1px solid #d0d0d0;height:41px; padding-left:15px; border-right:0px solid #d0d0d0; font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#030303; font-weight:normal;}
+.report_data_wrapp table th:last-child{ border-right:0px;}
+.report_data_wrapp table td{font-family:Tahoma, Geneva, sans-serif;  font-size:14px; color:#595959; font-weight:normal; border-bottom:1px solid #d0d0d0;padding-left:15px;border-right:1px solid #d0d0d0; height:32px; }
+.report_data_wrapp table tr td:nth-child(2){border-right:1px solid #ccc;}
+.border_right{  border-right:0px solid #ccc !important; }
+.report_data_wrapp table tr td:last-child{ border-right:1px; text-align:left; padding-right:15px;}
+.report_data_wrapp table tr:first-child td{border-top:1px solid #d0d0d0;}
+section.home{ }
+.report_data_wrapp table tfoot td{ font-weight:bold; color:#000;}
+.report_data_wrapp table tfoot th{ font-weight:bold; color:#000;}
+
+
+
+/********************Super Admin All Affiliates**********************************/
+.bottom_top_text {font-family: Tahoma,Geneva,sans-serif !important; font-weight:bold !important;  font-size:13px !important; color:#333 !important;}
+.align_center { text-align:center; }
+.span_margin { margin-left:10px; }
+.search_box { width:23%; float:left; margin-left:62%; margin-top:0.8%;  }
+.search_box h2 { color: #333;  float: left;  font-family: Tahoma,Geneva,sans-serif; font-size: 16px;  font-weight: normal;  margin-right: 5px; }
+.search_txt_box {  -moz-box-sizing: border-box;
+    border: 1px solid #BDBDBD !important;
+    color: #858585;
+    float: left;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 4px;
+    width:155px; }
+	
+/********************Fancy CheckBox CSS*********************************/
+.prettycheckbox.gray a,
+.prettyradio.gray a{ background-image: url(prettyCheckable-gray.png);}
+
+.prettycheckbox label,
+.prettyradio label {
+  display: block;
+  float: left;
+  margin: 6px 5px;
+  cursor: pointer;
+}
+.prettycheckbox.disabled a,
+.prettyradio.disabled a,
+.prettycheckbox.disabled label,
+.prettyradio.disabled label{
+  cursor:not-allowed;
+}
+
+.prettycheckbox.disabled a {
+  background-position: 0 -240px;
+}
+
+.prettyradio.disabled a {
+  background-position: 0 -270px;
+}

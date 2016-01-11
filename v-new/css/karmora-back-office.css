@@ -1,0 +1,127 @@
+/*======================================
+6  - Karmora Win Section
+=======================================*/
+.karmora-win {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.section-heading h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.karmora-win-color {
+    color: #c92463;
+}
+
+.singl-circle {
+	width: 214px;
+	height: 214px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.red-light {
+    background-color: rgba(252, 222, 196, 0.8);
+}
+.green-light {
+	 background-color: rgba(192, 231, 212, 0.8);
+}
+.purple-light {
+	 background-color: rgba(222, 185, 185, 0.8);
+}
+.pink-light {
+     background-color: rgba(250, 211, 224, 0.8);
+}
+.blue-light {
+     background-color: rgba(178, 203, 228, 0.8);
+}
+.icon-cover {
+	display: inline-block;
+	line-height: 214px;
+	position: relative;
+	max-width: 200px;
+	width: 100%;
+}
+.circle-title {
+    border-bottom: 3px solid #f6923b;
+    border-top: 3px solid #f6923b;
+    line-height: 28px;
+    margin-top: 44px;
+    padding: 2px 0;
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #f6923b;
+    font-weight: 600;
+}
+.circle-title::before {
+    background-color: #f6923b;
+    content: "";
+    height: 100px;
+    left: 50%;
+    position: absolute;
+    top: -100px;
+    width: 3px;
+}
+.circle-title {
+	opacity: 0;
+	-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.icon-cover:hover  .circle-title {
+	opacity: 1;
+}
+
+
+.second-circle .circle-title::before {
+	background-color: #2eb171;
+    height: 95px;
+    top: -95px;
+}
+.second-circle .circle-title {
+	 border-bottom: 3px solid #2eb171;
+    border-top: 3px solid #2eb171;
+    color: #2eb171;
+    font-weight: 600;
+}
+
+.third-circle .circle-title::before {
+	background-color: #931818;
+
+    top: -102px;
+}
+.third-circle .circle-title {
+	 border-bottom: 3px solid #931818;
+    border-top: 3px solid #931818;
+    color: #931818;
+    font-weight: 600;
+}
+.fourth-circle .circle-title::before {
+    background-color: #ed1459;
+    height: 101px;
+    top: -102px;
+
+}
+.fourth-circle .circle-title {
+     border-bottom: 3px solid #ed1459;
+    border-top: 3px solid #ed1459;
+    color: #ed1459;
+    font-weight: 600;
+}
+.fifth-circle .circle-title::before {
+    background-color: #0054a6;
+    height: 101px;
+    top: -102px;
+}
+.fifth-circle .circle-title {
+     border-bottom: 3px solid #0054a6;
+    border-top: 3px solid #0054a6;
+    color: #0054a6;
+    font-weight: 600;
+}

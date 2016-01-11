@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.productDetail{
+	border:#888888 1px dotted;
+	padding:15px;
+}
+
+.detailPic{ position:relative; }
+.detailImg{
+	text-align:center;
+}
+.detailDesc{
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.detailDesc h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:17px;
+	color:#000000;
+	margin:0 0 15px;
+	font-weight:bold;
+	font-style:italic;
+}
+.ddPrice{
+	font-size:18px;
+	margin:20px 0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+.buyBtn, .buyBtn:hover, .buyBtn:focus{
+    background: none repeat scroll 0 0 #e1075f;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 23px;
+    font-style: italic;
+    margin: 0px 0 25px 0;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+

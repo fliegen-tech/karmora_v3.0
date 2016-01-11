@@ -1,0 +1,114 @@
+<domainEntitites>
+		<domainEntity>
+                <storeId>nutrisystem.com</storeId>    
+		<domainName>nutrisystem.com</domainName>
+		<storeName>Nutrisystem</storeName>
+		<serpText>30.0% Cash Back</serpText>
+		<greenTooltip>You are earning 30.0% Cash Back at Nutrisystem</greenTooltip>
+	</domainEntity>
+        
+        <domainEntity>
+                <storeId>1824</storeId>
+		<domainName>macys.com</domainName>
+		<storeName>Macys</storeName>
+		<serpText>Up to 3.50% Cash Back</serpText>
+		<greenTooltip>You are earning Up to 3.50% Cash Back at Macys</greenTooltip>
+	</domainEntity>
+        
+        <domainEntity>
+                <storeId>1647</storeId>
+		<domainName>nordstrom.com</domainName>
+		<storeName>Nordstrom</storeName>
+		<serpText>Up to 14% Cash Back</serpText>
+		<greenTooltip>You are earning Up to 3.50% Cash Back at Macys</greenTooltip>
+	</domainEntity>
+        
+        <domainEntity>
+                <storeId>1681</storeId>
+		<domainName>nike.com</domainName>
+		<storeName>Nike</storeName>
+		<serpText>Up to 4.20% Cash Back</serpText>
+		<greenTooltip>You are earning Up to 4.20% Cash Back at Nike</greenTooltip>
+	</domainEntity>
+        
+        <domainEntity>
+		<domainName>jane.com</domainName>
+		<storeName>Jane.com</storeName>
+		<serpText>3.0% Cash Back</serpText>
+		<greenTooltip>You are earning 3.0% Cash Back at Jane.com</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>adasa.com</domainName>
+		<storeName>ADASA</storeName>
+		<serpText>3.0% Cash Back</serpText>
+		<greenTooltip>You are earning 3.0% Cash Back at ADASA</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		
+                <domainName>photos.com</domainName>
+		<storeName>Photos.com by Getty Images</storeName>
+		<serpText>6.0% Cash Back</serpText>
+		<greenTooltip>You are earning 6.0% Cash Back at Photos.com by Getty Images</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>biggerharderfaster.com</domainName>
+		<storeName>Bigger Harder Faster</storeName>
+		<serpText>10.0% Cash Back</serpText>
+		<greenTooltip>You are earning 10.0% Cash Back at Bigger Harder Faster</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>nordstromrack.com</domainName>
+		<storeName>Nordstrom Rack</storeName>
+		<serpText>2.0% Cash Back</serpText>
+		<greenTooltip>You are earning 2.0% Cash Back at Nordstrom Rack</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>2020ave.com</domainName>
+		<storeName>2020AVE</storeName>
+		<serpText>5.0% Cash Back</serpText>
+		<greenTooltip>You are earning 5.0% Cash Back at 2020AVE</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>skirtsports.com</domainName>
+		<storeName>Skirt Sports</storeName>
+		<serpText>4.0% Cash Back</serpText>
+		<greenTooltip>You are earning 4.0% Cash Back at Skirt Sports</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		
+                <domainName>individualsoftware.com</domainName>
+		<storeName>Individual Software</storeName>
+		<serpText>12.5% Cash Back</serpText>
+		<greenTooltip>You are earning 12.5% Cash Back at Individual Software</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>www.bkstr.com</domainName>
+		<storeName>eFollett</storeName>
+		<serpText>5.0% Cash Back</serpText>
+		<greenTooltip>You are earning 5.0% Cash Back at eFollett</greenTooltip>
+	</domainEntity>
+		
+        <domainEntity>
+		<domainName>discountglasses.com</domainName>
+		<storeName>DiscountGlasses.com</storeName>
+		<serpText>11.0% Cash Back</serpText>
+		<greenTooltip>You are earning 11.0% Cash Back at DiscountGlasses.com</greenTooltip>
+	</domainEntity>
+	
+        <domainEntity>
+		<domainName>hotelsclick.com</domainName>
+		<matchPattern>.*hotelsclick.com.*</matchPattern>
+		<storeName>HotelsClick</storeName>
+		<serpText>4.0% Cash Back</serpText>
+		<greenTooltip>You are earning 4.0% Cash Back at HotelsClick</greenTooltip>
+	</domainEntity>
+        
+</domainEntitites>        
